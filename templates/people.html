@@ -1,0 +1,194 @@
+{% extends "main_layout.html" %}
+{% block content %}
+
+  <div class="row">
+            <div class="col-xs-12 col-sm-10">
+              <div class="panel panel-info"><span class="page_title">{{ the_title }}</span>
+                 <div class="panel-heading" data-step="1" data-intro="This page will show all available data from January to current month of year." style="font-weight: normal" data-position="right">
+                   <h3 class="panel-title"><strong> {{ the_first_month }} {{ the_data_year }} </strong> to <strong> {{ the_last_month }} {{ the_data_year }}</strong> | Time Spent per Person </h3>
+                 </div>
+                 <div class="panel-body">
+
+                     <div class="container">
+                        <div class="row">
+
+                            <div class="col-xs-2">
+                                <!--Nested rows within a column-->
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="sidebar-content">
+
+                                            <!-- menu select -->
+
+                                               <div class="chart-wrapper" data-step="2" data-intro="Selecting a Team will filter the chart to show members of that team only.<br>Initially the list is set to 'Select All'" style="font-weight: normal" data-position="right">
+                                                   <div class="chart-title">
+                                                       Team
+                                                   </div>
+                                                   <div class="chart-stage">
+                                                       <div id="menu-select-team"></div>
+                                                   </div>
+                                               </div>
+
+                                           <!-- menu select -->
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="sidebar-content">
+
+                                            <!-- menu select -->
+
+                                               <div class="chart-wrapper" data-step="3" data-intro="These are the available months of data. Selecting a month will filter the chart to that month.<br>Use SHIFT key to select multiple months.<br>Initially the list is set to 'Select All'" style="font-weight: normal" data-position="right">
+                                                   <div class="chart-title">
+                                                       Month
+                                                   </div>
+                                                   <div class="chart-stage">
+                                                       <div id="menu-select-month"></div>
+                                                   </div>
+                                               </div>
+
+                                           <!-- menu select -->
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="row">
+
+                            <div class="col-xs-2">
+                                <!--Nested rows within a column-->
+
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="sidebar-content">
+
+                                            <!-- Metric 2 -->
+                                             <!--  <div class="col-sm-3"> -->
+                                                  <div class="chart-wrapper" data-step="4" data-intro="This is the sum of all times logged by the Team Members in your current filter selection, in hours/mins" style="font-weight: normal" data-position="right">
+                                                       <div class="chart-title">
+                                                           Time Spent
+                                                       </div>
+                                                       <div id="total-hours-spent-nd" class="customNDtext">&nbsp&nbsp&nbsp</div>
+                                                      <div id="total-mins-spent-nd" class="customNDtext"> &nbsphrs </div> <span class="customNDtext">&nbspmins</span>
+
+                                                    </div>
+                                            <!--       </div> -->
+                                            <!-- Metric 2 -->
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="sidebar-content">
+
+                                            <!-- Metric 3 -->
+
+                                                  <div class="chart-wrapper" data-step="5" data-intro="This displays the times logged for your current filter selection, in days" style="font-weight: normal" data-position="right">
+                                                       <div class="chart-title">
+                                                           Time in Days
+                                                       </div>
+                                                       <div id="total-days-spent-nd" class="customNDtext">&nbsp&nbsp&nbsp</div><span class="customNDtext">&nbspdays</span>
+
+
+                                                    </div>
+
+                                            <!-- Metric 3 -->
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                 <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="sidebar-content">
+
+                                            <!-- Category Pie EMEA-->
+
+                                       <div class="chart-wrapper" data-step="6" data-intro="The Pie Chart shows division of Time Spent by the Person or Team across the main Categories.<br> Click on a pie section or a legend item to filter.<br> Use the 'Reset' link to return to selecting all." style="font-weight: normal" data-position="right">
+                                           <div class="chart-title">
+                                               Category Breakdown
+                                           </div>
+                                           <div class="chart-stage">
+                                               <div id="category-chart">
+                                               </div>
+                                               &nbsp &nbsp<a class='reset'
+                                                  href='javascript:categoryChart.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all</a>
+                                           </div>
+
+                                       </div>
+
+                                    <!-- Category Pie -->
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-xs-5">
+
+
+
+
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="sidebar-content">
+
+                                            <div class="main-content">
+
+                                                 <!-- People Bar Chart-->
+
+                                                   <div class="chart-wrapper" data-step="7" data-intro="These are the individual Team Members. <br> Click on a name to filter by that person (or SHIFT-click to select multiple people).<br> Use the 'Reset' link to return to selecting all." style="font-weight: normal" data-position="right">
+                                                       <div class="chart-title">
+                                                           Breakdown per Person
+                                                       </div>
+                                                       <div class="chart-stage">
+                                                           <div id="people-chart"></div>
+                                                        &nbsp &nbsp &nbsp &nbsp<a class='reset'
+                                                              href='javascript:peopleChart.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all </a>
+
+                                                       </div>
+                                                   </div>
+
+                                                <!-- People Bar Chart -->
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                 </div>
+              </div>
+            </div>
+   </div>
+
+
+
+
+
+
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/crossfilter.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/d3.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/dc.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/queue.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/keen.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/keen.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/people.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jQuery.js') }}"></script>
+{% endblock %}

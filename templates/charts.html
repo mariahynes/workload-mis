@@ -1,0 +1,307 @@
+{% extends "main_layout.html" %}
+{% block content %}
+
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12">
+              <div class="panel panel-info"><span class="page_title">{{ the_title }}</span>
+                 <div class="panel-heading" data-step="1" data-intro="This page will show all available data from January to current month of year." style="font-weight: normal" data-position="center">
+                   <h3 class="panel-title"><strong> {{ the_first_month }} {{ the_data_year }} </strong> to <strong> {{ the_last_month }} {{ the_data_year }}</strong> | Time Spent and Items Logged </h3>
+                 </div>
+                 <div class="panel-body">
+                     <div class="container">
+                             <div class = "row">
+
+                                 <div class="col-xs-7">
+                                     <div class="row">
+                                        <div class="col-xs-12">
+                                             <!-- Time Chart -->
+                                            <!--
+
+                                            -->
+                                           <div class ="row">
+                                               <div class="col-xs-12">
+                                                   <div class="chart-wrapper">
+                                                       <div class="chart-title">
+                                                           Days Spent per Month
+                                                       </div>
+                                                       <div class="chart-stage" data-step="2" data-intro="Filter the drop-down lists to view time spent on a monthly basis.<br>Click and drag across the chart to select one or a range of months." style="font-weight: normal" data-position="right">
+                                                           <div id="time-chart-time-spent"></div>
+                                                           &nbsp &nbsp &nbsp &nbsp<a class='reset'
+                                                              href='javascript:timeChart_TimeSpent.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all </a>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                            <div class ="row">
+                                               <div class="col-xs-12">
+                                                   <div class="chart-wrapper">
+                                                       <div class="chart-title">
+                                                           Team Members
+                                                       </div>
+                                                       <div class="chart-stage" data-step="3" data-intro="Filter the drop-down lists to view who spent time on what Projects or Tasks." style="font-weight: normal" data-position="right">
+                                                       <div id="name-row-chart"></div>
+                                                       &nbsp &nbsp &nbsp &nbsp<a class='reset'
+                                                             href='javascript:nameChart.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all </a>
+                                                   </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+
+
+                                            <div class="row">
+                                                <div class="col-xs-8">
+                                                    <div class="sidebar-content">
+
+                                                        <!-- Category Pie EMEA-->
+
+                                                       <div class="chart-wrapper">
+                                                           <div class="chart-title">
+                                                               Category Breakdown
+                                                           </div>
+                                                           <div class="chart-stage" data-step="4" data-intro="The Pie Chart displays the breakdown of your selection by Category." style="font-weight: normal" data-position="right">
+                                                               <div id="category-chart">
+                                                               </div>
+                                                               &nbsp &nbsp<a class='reset'
+                                                                  href='javascript:categoryChart.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all</a>
+                                                           </div>
+
+                                                       </div>
+
+                                                <!-- Category Pie -->
+
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="col-xs-4">
+                                                    <div class="row">
+                                                        <div class="col-xs-12">
+                                                            <div class="sidebar-content">
+
+                                                            <!-- Metric 3 -->
+
+                                                              <div class="chart-wrapper">
+                                                                   <div class="chart-title">
+                                                                       Items Logged
+                                                                   </div>
+                                                                   <div id="total-items-logged-nd" class="customNDtext" >&nbsp&nbsp&nbsp</div><span class="customNDtext">&nbspitems</span>
+
+
+                                                                </div>
+
+                                                            <!-- Metric 3 -->
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-xs-12">
+                                                        <div class="sidebar-content">
+
+                                                        <!-- Metric 2 -->
+                                                         <!--  <div class="col-sm-3"> -->
+                                                              <div class="chart-wrapper">
+                                                                   <div class="chart-title">
+                                                                       Time Spent
+                                                                   </div>
+                                                                   <div id="total-hours-spent-nd" class="customNDtext">&nbsp&nbsp&nbsp</div>
+                                                                  <div id="total-mins-spent-nd" class="customNDtext"> &nbsphrs </div> <span class="customNDtext">&nbspmins</span>
+
+                                                                </div>
+                                                        <!--       </div> -->
+                                                        <!-- Metric 2 -->
+
+
+
+                                                         </div>
+                                                    </div>
+                                                    </div>
+
+                                                <div class="row">
+                                                    <div class="col-xs-12">
+                                                    <div class="sidebar-content">
+
+                                                        <!-- Metric 3 -->
+
+                                                              <div class="chart-wrapper">
+                                                                   <div class="chart-title">
+                                                                       Time in Days
+                                                                   </div>
+                                                                   <div id="total-days-spent-nd" class="customNDtext">&nbsp&nbsp&nbsp</div><span class="customNDtext">&nbspdays</span>
+
+
+                                                                </div>
+
+                                                        <!-- Metric 3 -->
+
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                   </div>
+
+
+
+
+
+                                         <!-- Time Chart -->
+                                        </div>
+                                     </div>
+
+
+
+
+
+                                 <div class="col-xs-2" data-step="5" data-intro="Use the drop-down lists to drill down and filter the charts. Use 'Select All' to reset each list." style="font-weight: normal" data-position="center">
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                             <div class="row">
+                                                <div class="col-xs-12">
+                                                    <div class="sidebar-content">
+
+                                                        <!-- Metric 3 -->
+
+                                                              <div class="chart-wrapper">
+                                                               <div class="chart-title">
+                                                                   Team Name
+                                                               </div>
+                                                               <div class="chart-stage">
+                                                                   <div id="menu-select2"></div>
+                                                               </div>
+                                                           </div>
+
+                                                        <!-- Metric 3 -->
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <div class="sidebar-content">
+
+                                                        <div class="chart-wrapper">
+                                                           <div class="chart-title">
+                                                               Month
+                                                           </div>
+                                                           <div class="chart-stage">
+                                                               <div id="menu-select"></div>
+                                                           </div>
+                                                       </div>
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <div class="sidebar-content">
+
+                                                        <div class="chart-wrapper">
+                                                           <div class="chart-title">
+                                                               Function
+                                                           </div>
+                                                           <div class="chart-stage">
+                                                               <div id="menu-select5" ></div>
+                                                           </div>
+                                                       </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                 </div>
+
+
+
+                                 <div class="col-xs-2">
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+
+
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <div class="sidebar-content">
+
+                                                        <div class="chart-wrapper">
+                                                           <div class="chart-title">
+                                                               Deal/Project
+                                                           </div>
+                                                           <div class="chart-stage">
+                                                               <div id="menu-select4" ></div>
+                                                           </div>
+                                                       </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                 </div>
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+                 </div>
+              </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/crossfilter.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/d3.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/dc.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/queue.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/keen.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/keen.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/graph.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jQuery.js') }}"></script>
+
+{% endblock %}

@@ -1,0 +1,1 @@
+web: gunicorn mis_sql:app
