@@ -11,7 +11,7 @@ function makeGraphs(error, projectsJson) {
    //Clean projectsJson data
    var teamData = projectsJson;
    var dateFormat = d3.time.format("%d %B %Y");
-   var displayDate = d3.time.format("%b");
+
 
    teamData.forEach(function (d) {
 
