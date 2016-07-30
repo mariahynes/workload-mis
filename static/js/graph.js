@@ -12,7 +12,6 @@ function makeGraphs(error, projectsJson) {
    var teamData = projectsJson;
    var dateFormat = d3.time.format("%d-%b-%Y");
 
-
    teamData.forEach(function (d) {
 
        d["date_entered"] = dateFormat.parse(d["date_entered"]);
