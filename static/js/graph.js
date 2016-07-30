@@ -10,7 +10,7 @@ function makeGraphs(error, projectsJson) {
 
    //Clean projectsJson data
    var teamData = projectsJson;
-   var dateFormat = d3.time.format("%d %B %Y");
+   var dateFormat = d3.time.format("%d-%b-%Y");
 
 
    teamData.forEach(function (d) {
