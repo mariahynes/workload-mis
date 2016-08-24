@@ -23,7 +23,7 @@ class MySQLDatabase(object):
         try:
             self.db = _mysql.connect(db=database_name,host=host,user=username,passwd=password)
             self.databasename = database_name
-            #print "Connected to MySQL!"
+            print "Connected to MySQL!"
         except _mysql.Error, e:
             print e
 #---------------------------------------------------------------------------------------------
@@ -37,7 +37,7 @@ class MySQLDatabase(object):
 
         if hasattr(self, "db"):
             self.db.close()
-          #  print "MySQL Connection Closed!"
+            print "MySQL Connection Closed!"
 
 # ---------------------------------------------------------------------------------------------
     def get_available_tables(self):
