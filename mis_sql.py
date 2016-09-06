@@ -2,6 +2,8 @@ import collections
 import json
 import datetime
 import os
+import logging
+
 
 from flask import Flask
 from flask import render_template
@@ -11,6 +13,9 @@ from settings import db_config
 from settings import db_config_local
 
 app = Flask(__name__)
+
+logging.basicConfig()
+logging.getLogger('sqlalchemy.pool').setLevel(logging.INFO)
 
 is_heroku = os.environ.get("IS_HEROKU", None)
 
@@ -50,8 +55,7 @@ def latest_month():
 
 def latest_year():
     # this will search the table for the LATEST year data available and return the year
-    the_latest_month_qry = db.select(data_table(), ['month_name', 'the_year'], named_tuples=True,
-                                     ORDERBY='the_year DESC, month_number DESC', LIMIT='1')
+    the_latest_month_qry = db.select(data_table(), ['month_name', 'the_year'], named_tuples=True, ORDERBY='the_year DESC, month_number DESC', LIMIT='1')
 
     for row in the_latest_month_qry:
         the_latest_year = row.the_year
@@ -140,6 +144,7 @@ def month_deal_data():
                              LIMIT='5')
 
     all_records = db.union(apac_records, emea_records,named_tuples=True,union_all=True)
+
     json_mis = []
     for record in all_records:
         d = collections.OrderedDict()

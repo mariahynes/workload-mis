@@ -180,7 +180,6 @@ function makeGraphs(error, categoryDataJson, dealDataJson) {
     totalDaysSpentND2
       .formatNumber(d3.format(","))
       .valueAccessor(function (d) {
-            //return (Math.floor(d/60))/7.5;
             return Math.round((d/60)/7.5);
        })
        .group(totalTimeSpent2);

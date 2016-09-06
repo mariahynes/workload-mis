@@ -6213,6 +6213,7 @@ dc.selectMenu = function (parent, chartGroup) {
             _select.property('value', _chart.filter());
         } else {
             _select.property('value', '');
+
         }
         return _chart;
     };
