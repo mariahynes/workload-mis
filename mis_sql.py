@@ -2,8 +2,6 @@ import collections
 import json
 import datetime
 import os
-import logging
-
 
 from flask import Flask
 from flask import render_template
@@ -13,9 +11,6 @@ from settings import db_config
 from settings import db_config_local
 
 app = Flask(__name__)
-
-app.logger.addHandler(logging.StreamHandler(sys.stdout))
-app.logger.setLevel(logging.ERROR)
 
 is_heroku = os.environ.get("IS_HEROKU", None)
 
