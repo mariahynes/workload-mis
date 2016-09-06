@@ -14,8 +14,8 @@ from settings import db_config_local
 
 app = Flask(__name__)
 
-logging.basicConfig()
-logging.getLogger('sqlalchemy.pool').setLevel(logging.INFO)
+app.logger.addHandler(logging.StreamHandler(sys.stdout))
+app.logger.setLevel(logging.ERROR)
 
 is_heroku = os.environ.get("IS_HEROKU", None)
 
