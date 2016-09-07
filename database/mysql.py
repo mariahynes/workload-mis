@@ -190,9 +190,9 @@ class MySQLDatabase(object):
             return self.qry_string
 
         cursor = self.db.cursor()
-        #cursor.execute(strsql)
-        #new line:
-        self.__execute_sql(strsql,self,cursor)
+        # cursor.execute(strsql)
+        # new line:
+        self.__execute_sql(strsql,cursor)
 
         if named_tuples:
             results = self.convert_to_named_tuples(cursor)
@@ -227,7 +227,7 @@ class MySQLDatabase(object):
         cursor = self.db.cursor()
         #cursor.execute(strsql)
         #new line
-        self.__execute_sql(strsql, self, cursor)
+        self.__execute_sql(strsql, cursor)
 
         if named_tuples:
             results = self.convert_to_named_tuples(cursor)
