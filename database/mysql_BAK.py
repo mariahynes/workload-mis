@@ -2,11 +2,6 @@ import MySQLdb as _mysql
 from collections import namedtuple
 import re
 
-#these are only used if the connection dies
-import os
-from settings_BAK import db_config
-from settings_BAK import db_config_local
-
 float_match = re.compile(r'[-+]?\d*\.?\d+(?:[eE][-+]?\d+)?$').match
 
 def is_number(string):
@@ -46,42 +41,7 @@ class MySQLDatabase(object):
 
 # ---------------------------------------------------------------------------------------------
 
-    #just testing some suggestions for connection management
 
-    def __execute_sql(self, sql, cursor):
-        try:
-            cursor.execute(sql)
-            return 1
-
-        except _mysql.OperationalError, e:
-            if e[0] == 2006:
-                print "Restarting DB"
-                self.start_database()
-                return 0
-
-# ---------------------------------------------------------------------------------------------
-    def start_database(self):
-
-        is_heroku = os.environ.get("IS_HEROKU", None)
-
-        if is_heroku:
-            database_name = db_config.get("db_name")
-            host = db_config.get("host")
-            username = db_config.get("user")
-            password = db_config.get("pass")
-
-        else:
-            database_name = db_config_local.get("db_name")
-            host = db_config_local.get("host")
-            username = db_config_local.get("user")
-            password = db_config_local.get("pass")
-
-        try:
-            self.db = _mysql.connect(db=database_name,host=host,user=username,passwd=password)
-            self.databasename = database_name
-            print "Connected to MySQL (after restart)"
-        except _mysql.Error, e:
-            print e
 
 # ---------------------------------------------------------------------------------------------
 
@@ -190,9 +150,7 @@ class MySQLDatabase(object):
             return self.qry_string
 
         cursor = self.db.cursor()
-        #cursor.execute(strsql)
-        #new line:
-        self.__execute_sql(strsql,self,cursor)
+        cursor.execute(strsql)
 
         if named_tuples:
             results = self.convert_to_named_tuples(cursor)
@@ -225,9 +183,7 @@ class MySQLDatabase(object):
         self.qry_string = strsql
 
         cursor = self.db.cursor()
-        #cursor.execute(strsql)
-        #new line
-        self.__execute_sql(strsql, self, cursor)
+        cursor.execute(strsql)
 
         if named_tuples:
             results = self.convert_to_named_tuples(cursor)
