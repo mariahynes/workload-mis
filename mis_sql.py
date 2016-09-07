@@ -39,6 +39,9 @@ def data_table():
     return "mis_data_txt"
 
 def latest_month():
+    # adding this to check connection first
+    db.get_conn().ping(True)
+
     # this will search the table for the LATEST month data available and return the month name
     the_latest_month_qry = db.select(data_table(), ['month_name', 'the_year'], named_tuples=True,
                                      ORDERBY='the_year DESC, month_number DESC', LIMIT='1')
