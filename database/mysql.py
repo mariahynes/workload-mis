@@ -4,8 +4,8 @@ import re
 
 #these are only used if the connection dies
 import os
-from settings_BAK import db_config
-from settings_BAK import db_config_local
+from settings_db import db_config
+from settings_db import db_config_local
 
 float_match = re.compile(r'[-+]?\d*\.?\d+(?:[eE][-+]?\d+)?$').match
 

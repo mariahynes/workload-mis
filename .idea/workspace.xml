@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acb56f2f-c97b-44fc-9780-f66bb9bec24b" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/settings_BAK.py" afterPath="$PROJECT_DIR$/database/settings_db.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/mysql.py" afterPath="$PROJECT_DIR$/database/mysql.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mis_sql.py" afterPath="$PROJECT_DIR$/mis_sql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <ignored path="workload-mis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,8 +72,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings_BAK.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/settings_BAK.py">
+      <file leaf-file-name="settings_db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/settings_db.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -103,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mis_sql.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mis_sql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mis_sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -116,22 +119,22 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mysql.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/mysql.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="867">
               <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1473278322637" expanded="true" signature="8069:8084" ph="DELETE FROM " />
-                <marker date="1473278322637" expanded="true" signature="9354:9369" ph="INSERT INTO missing_value.missing_value... " />
+                <marker date="1473281917142" expanded="true" signature="8067:8082" ph="DELETE FROM " />
+                <marker date="1473281917142" expanded="true" signature="9352:9367" ph="INSERT INTO missing_value.missing_value... " />
               </folding>
             </state>
           </provider>
@@ -147,7 +150,6 @@
       <list>
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/static/js/graph.js" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/static/js/category.js" />
@@ -155,6 +157,7 @@
         <option value="$PROJECT_DIR$/database/mysql_BAK.py" />
         <option value="$PROJECT_DIR$/database/mysql.py" />
         <option value="$PROJECT_DIR$/mis_sql.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
       </list>
     </option>
   </component>
@@ -691,8 +694,8 @@
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1473278322637" expanded="true" signature="8069:8084" ph="DELETE FROM " />
-            <marker date="1473278322637" expanded="true" signature="9354:9369" ph="INSERT INTO missing_value.missing_value... " />
+            <marker date="1473281917142" expanded="true" signature="8067:8082" ph="DELETE FROM " />
+            <marker date="1473281917142" expanded="true" signature="9352:9367" ph="INSERT INTO missing_value.missing_value... " />
           </folding>
         </state>
       </provider>
@@ -763,8 +766,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1473278322637" expanded="true" signature="8069:8084" ph="DELETE FROM " />
-            <marker date="1473278322637" expanded="true" signature="9354:9369" ph="INSERT INTO missing_value.missing_value... " />
+            <marker date="1473281917142" expanded="true" signature="8067:8082" ph="DELETE FROM " />
+            <marker date="1473281917142" expanded="true" signature="9352:9367" ph="INSERT INTO missing_value.missing_value... " />
           </folding>
         </state>
       </provider>
@@ -834,8 +837,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1473278322637" expanded="true" signature="8069:8084" ph="DELETE FROM " />
-            <marker date="1473278322637" expanded="true" signature="9354:9369" ph="INSERT INTO missing_value.missing_value... " />
+            <marker date="1473281917142" expanded="true" signature="8067:8082" ph="DELETE FROM " />
+            <marker date="1473281917142" expanded="true" signature="9352:9367" ph="INSERT INTO missing_value.missing_value... " />
           </folding>
         </state>
       </provider>
@@ -1021,7 +1024,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/settings_BAK.py">
+    <entry file="file://$PROJECT_DIR$/database/settings_db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1031,8 +1034,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mis_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1043,17 +1054,9 @@
           <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1473278322637" expanded="true" signature="8069:8084" ph="DELETE FROM " />
-            <marker date="1473278322637" expanded="true" signature="9354:9369" ph="INSERT INTO missing_value.missing_value... " />
+            <marker date="1473281917142" expanded="true" signature="8067:8082" ph="DELETE FROM " />
+            <marker date="1473281917142" expanded="true" signature="9352:9367" ph="INSERT INTO missing_value.missing_value... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mis_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

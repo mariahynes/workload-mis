@@ -7,8 +7,8 @@ from flask import Flask
 from flask import render_template
 
 from database.mysql import MySQLDatabase
-from database.settings_BAK import db_config
-from database.settings_BAK import db_config_local
+from database.settings_db import db_config
+from database.settings_db import db_config_local
 
 app = Flask(__name__)
 
