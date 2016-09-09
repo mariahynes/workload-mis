@@ -1,7 +1,7 @@
 {% extends "main_layout.html" %}
 {% block content %}
 
-    <div class="row" xmlns="http://www.w3.org/1999/html">
+    <div class="row">
             <div class="col-xs-12 col-sm-12">
               <div class="panel panel-info"><span class="page_title hidden-xs">{{ the_title }}</span>
                  <div class="panel-heading" data-step="1" data-intro="This page will show all available data from January to current month of year." style="font-weight: normal" data-position="right">
@@ -144,12 +144,12 @@
 
                             </div>
 
-                            <div class="col-xs-5 hidden-xs">
+                            <div class="col-xs-12 col-sm-5">
                                 <div class="main-content">
 
                                      <!-- Category Pie EMEA-->
 
-                                       <div class="chart-wrapper" data-step="7" data-intro="This is the full list of the Team's Deals and Projects. <br> Click on a bar to filter by that Deal (or SHIFT-click to select multiple Deals).<br> Use the 'Reset' link to return to selecting all." style="font-weight: normal" data-position="right">
+                                       <div class="chart-wrapper hidden-xs" data-step="7" data-intro="This is the full list of the Team's Deals and Projects. <br> Click on a bar to filter by that Deal (or SHIFT-click to select multiple Deals).<br> Use the 'Reset' link to return to selecting all." style="font-weight: normal" data-position="right">
                                            <div class="chart-title">
                                                Deal/Project Breakdown
                                            </div><br>
@@ -160,6 +160,21 @@
                                                <div id="deal-chart"></div>
                                                     &nbsp &nbsp &nbsp &nbsp<a class='reset'
                                                   href='javascript:dealChart.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to select all Deals</a>
+
+                                           </div>
+                                       </div>
+
+                                    <div class="chart-wrapper hidden-sm hidden-lg hidden-md" data-step="7" data-intro="This is the full list of the Team's Deals and Projects. <br> Click on a bar to filter by that Deal (or SHIFT-click to select multiple Deals).<br> Use the 'Reset' link to return to selecting all." style="font-weight: normal" data-position="right">
+                                           <div class="chart-title">
+                                               Deal/Project Breakdown
+                                           </div><br>
+                                                    &nbsp &nbsp &nbsp &nbsp &nbsp<a class='reset'
+                                                  href='javascript:dealChart_xs.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to select all Deals</a>
+                                           <div class="chart-stage">
+
+                                               <div id="deal-chart_xs"></div>
+                                                    &nbsp &nbsp &nbsp &nbsp<a class='reset'
+                                                  href='javascript:dealChart_xs.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to select all Deals</a>
 
                                            </div>
                                        </div>

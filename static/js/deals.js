@@ -78,6 +78,8 @@ function makeGraphs(error, dealDataJson) {
 
     //Charts ndx
    dealChart = dc.rowChart("#deal-chart");
+   dealChart_xs = dc.rowChart("#deal-chart_xs");
+
     //Define values (to be used in charts)
    var totalHoursSpentND2 = dc.numberDisplay("#total-hours-spent-nd2");
    var totalMinsSpentND2 = dc.numberDisplay("#total-mins-spent-nd2");
@@ -133,6 +135,15 @@ function makeGraphs(error, dealDataJson) {
    //charts ndx
     dealChart
        .width(450)
+       .height(2850)
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489','#ffa388','#a9bcca','#fb9a1d','#e588a3','#14ac00'])
+       .dimension(dealDim)
+       .group(totalTimeSpentByDeal)
+       .elasticX(true)
+       .gap(1);
+
+    dealChart_xs
+       .width(280)
        .height(2850)
        .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489','#ffa388','#a9bcca','#fb9a1d','#e588a3','#14ac00'])
        .dimension(dealDim)

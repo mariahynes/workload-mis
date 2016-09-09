@@ -2,17 +2,17 @@
 {% block content %}
 
   <div class="row">
-            <div class="col-xs-12 col-sm-10">
-              <div class="panel panel-info"><span class="page_title">{{ the_title }}</span>
+            <div class="col-xs-12 col-sm-12">
+              <div class="panel panel-info"><span class="page_title hidden-xs">{{ the_title }}</span>
                  <div class="panel-heading" data-step="1" data-intro="This page will show all available data from January to current month of year." style="font-weight: normal" data-position="right">
-                   <h3 class="panel-title"><strong> {{ the_first_month }} {{ the_data_year }} </strong> to <strong> {{ the_last_month }} {{ the_data_year }}</strong> | Time Spent per Person </h3>
+                   <h3 class="panel-title"><strong> {{ the_first_month }} {{ the_data_year }} </strong> to <strong> {{ the_last_month }} {{ the_data_year }}</strong> <span class="hidden-xs">|</span> <br class="visible-xs">Time Spent per Person </h3>
                  </div>
                  <div class="panel-body">
 
                      <div class="container">
                         <div class="row">
 
-                            <div class="col-xs-2">
+                            <div class="col-xs-12 col-sm-2">
                                 <!--Nested rows within a column-->
                                 <div class="row">
                                     <div class="col-xs-12">
@@ -60,9 +60,9 @@
 
 
                             </div>
-                            <div class="row">
 
-                            <div class="col-xs-2">
+
+                            <div class="col-xs-12 col-sm-2">
                                 <!--Nested rows within a column-->
 
                                 <div class="row">
@@ -118,13 +118,18 @@
                                            <div class="chart-title">
                                                Category Breakdown
                                            </div>
-                                           <div class="chart-stage">
+                                           <div class="chart-stage hidden-xs">
                                                <div id="category-chart">
                                                </div>
                                                &nbsp &nbsp<a class='reset'
                                                   href='javascript:categoryChart.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all</a>
                                            </div>
-
+                                            <div class="chart-stage hidden-lg hidden-md hidden-sm">
+                                               <div id="category-chart_xs">
+                                               </div>
+                                               &nbsp &nbsp<a class='reset'
+                                                  href='javascript:categoryChart_xs.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all</a>
+                                            </div>
                                        </div>
 
                                     <!-- Category Pie -->
@@ -134,11 +139,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xs-5">
-
-
-
-
+                            <div class="col-xs-12 col-sm-5">
                                 <div class="row">
                                     <div class="col-xs-12">
                                         <div class="sidebar-content">
@@ -147,7 +148,7 @@
 
                                                  <!-- People Bar Chart-->
 
-                                                   <div class="chart-wrapper" data-step="7" data-intro="These are the individual Team Members. <br> Click on a name to filter by that person (or SHIFT-click to select multiple people).<br> Use the 'Reset' link to return to selecting all." style="font-weight: normal" data-position="right">
+                                                   <div class="chart-wrapper hidden-xs" data-step="7" data-intro="These are the individual Team Members. <br> Click on a name to filter by that person (or SHIFT-click to select multiple people).<br> Use the 'Reset' link to return to selecting all." style="font-weight: normal" data-position="right">
                                                        <div class="chart-title">
                                                            Breakdown per Person
                                                        </div>
@@ -155,6 +156,17 @@
                                                            <div id="people-chart"></div>
                                                         &nbsp &nbsp &nbsp &nbsp<a class='reset'
                                                               href='javascript:peopleChart.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all </a>
+
+                                                       </div>
+                                                   </div>
+                                                <div class="chart-wrapper hidden-lg hidden-md hidden-sm" data-step="7" data-intro="These are the individual Team Members. <br> Click on a name to filter by that person (or SHIFT-click to select multiple people).<br> Use the 'Reset' link to return to selecting all." style="font-weight: normal" data-position="right">
+                                                       <div class="chart-title">
+                                                           Breakdown per Person
+                                                       </div>
+                                                       <div class="chart-stage">
+                                                           <div id="people-chart_xs"></div>
+                                                        &nbsp &nbsp &nbsp &nbsp<a class='reset'
+                                                              href='javascript:peopleChart_xs.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all </a>
 
                                                        </div>
                                                    </div>

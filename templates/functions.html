@@ -2,17 +2,17 @@
 {% block content %}
 
   <div class="row">
-            <div class="col-xs-12 col-sm-10">
-              <div class="panel panel-info"><span class="page_title">{{ the_title }}</span>
+            <div class="col-xs-12 col-sm-12">
+              <div class="panel panel-info"><span class="page_title hidden-xs">{{ the_title }}</span>
                  <div class="panel-heading" data-step="1" data-intro="This page will show all available data from January to current month of year." style="font-weight: normal" data-position="right">
-                   <h3 class="panel-title"><strong> {{ the_first_month }} {{ the_data_year }} </strong> to <strong> {{ the_last_month }} {{ the_data_year }}</strong> | Time Spent per Function </h3>
+                   <h3 class="panel-title"><strong> {{ the_first_month }} {{ the_data_year }} </strong> to <strong> {{ the_last_month }} {{ the_data_year }}</strong> <span class="hidden-xs">|</span> <br class="visible-xs"> Time Spent per Function </h3>
                  </div>
                  <div class="panel-body">
 
                      <div class="container">
                         <div class="row">
 
-                            <div class="col-xs-2">
+                            <div class="col-xs-12 col-sm-2">
                                 <!--Nested rows within a column-->
                                 <div class="row">
                                     <div class="col-xs-12">
@@ -59,7 +59,7 @@
 
                             </div>
 
-                            <div class="col-xs-2">
+                            <div class="col-xs-12 col-sm-2">
                                 <!--Nested rows within a column-->
 
                                 <div class="row">
@@ -115,12 +115,18 @@
                                            <div class="chart-title">
                                                Category Breakdown
                                            </div>
-                                           <div class="chart-stage">
+                                           <div class="chart-stage hidden-xs">
                                                <div id="category-chart">
                                                </div>
                                                &nbsp &nbsp<a class='reset'
                                                   href='javascript:categoryChart.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all</a>
                                            </div>
+                                           <div class="chart-stage hidden-lg hidden-md hidden-sm">
+                                               <div id="category-chart_xs">
+                                               </div>
+                                               &nbsp &nbsp<a class='reset'
+                                                  href='javascript:categoryChart_xs.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all</a>
+                                            </div>
 
                                        </div>
 
@@ -133,12 +139,15 @@
 
                             </div>
 
-                            <div class="col-xs-5">
-                                <div class="main-content">
+                            <div class="col-xs-12 col-sm-5">
+                                 <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="sidebar-content">
+                                            <div class="main-content">
 
                                      <!-- Category Pie EMEA-->
 
-                                       <div class="chart-wrapper" data-step="7" data-intro="This is the full list of the Functions and Tasks carried out by the Teams. <br> Click on a bar to filter by that Function (or SHIFT-click to select multiple Functions).<br> Use the 'Reset' link to return to selecting all." style="font-weight: normal" data-position="right">
+                                       <div class="chart-wrapper hidden-xs" data-step="7" data-intro="This is the full list of the Functions and Tasks carried out by the Teams. <br> Click on a bar to filter by that Function (or SHIFT-click to select multiple Functions).<br> Use the 'Reset' link to return to selecting all." style="font-weight: normal" data-position="right">
                                            <div class="chart-title">
                                                Function/Task Breakdown
                                            </div><br>
@@ -151,7 +160,22 @@
 
                                            </div>
                                        </div>
+                                       <div class="chart-wrapper hidden-md hidden-lg hidden-sm" data-step="7" data-intro="This is the full list of the Functions and Tasks carried out by the Teams. <br> Click on a bar to filter by that Function (or SHIFT-click to select multiple Functions).<br> Use the 'Reset' link to return to selecting all." style="font-weight: normal" data-position="right">
+                                           <div class="chart-title">
+                                               Function/Task Breakdown
+                                           </div><br>
+                                           &nbsp &nbsp &nbsp &nbsp &nbsp<a class='reset'
+                                                  href='javascript:functionChart_xs.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to select all Functions</a>
+                                           <div class="chart-stage">
+                                               <div id="function-chart_xs"></div>
+                                            &nbsp &nbsp &nbsp &nbsp<a class='reset'
+                                                  href='javascript:functionChart_xs.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to select all Functions</a>
 
+                                           </div>
+                                       </div>
+                                </div>
+                            </div>
+                        </div>
                                     <!-- Category Pie -->
 
 

@@ -70,9 +70,12 @@ function makeGraphs(error, functionDataJson) {
     });
 
    categoryChart = dc.pieChart("#category-chart"); //by removing the var here the reset button on the page will work
+   categoryChart_xs = dc.pieChart("#category-chart_xs"); //by removing the var here the reset button on the page will work
 
     //Charts ndx
    functionChart = dc.rowChart("#function-chart");
+   functionChart_xs = dc.rowChart("#function-chart_xs");
+
     //Define values (to be used in charts)
    var totalHoursSpentND2 = dc.numberDisplay("#total-hours-spent-nd2");
    var totalMinsSpentND2 = dc.numberDisplay("#total-mins-spent-nd2");
@@ -113,9 +116,32 @@ function makeGraphs(error, functionDataJson) {
        .renderLabel(false)
        .group(totalTimeSpentByCategory);
 
+    categoryChart_xs
+       .width(250)
+       .height(280)
+       .radius(90)
+       .innerRadius(30)
+       .legend(dc.legend().x(2).y(2).itemHeight(10).gap(2))
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489'])
+       .minAngleForLabel(0.8)
+       .transitionDuration(1500)
+       .turnOnControls(true)
+       .dimension(categoryDim)
+       .renderLabel(true)
+       .group(totalTimeSpentByCategory);
+
    //charts ndx
     functionChart
        .width(450)
+       .height(850)
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489','#ffa388','#a9bcca','#fb9a1d','#e588a3','#14ac00'])
+       .dimension(functionDim)
+       .group(totalTimeSpentByFunction)
+       .elasticX(true)
+       .gap(7);
+
+    functionChart_xs
+       .width(280)
        .height(850)
        .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489','#ffa388','#a9bcca','#fb9a1d','#e588a3','#14ac00'])
        .dimension(functionDim)
