@@ -274,10 +274,11 @@ function makeGraphs(error, projectsJson) {
        .group(MISByCategory);
 */
     categoryChart
+       .width(450)
        .height(190)
        .radius(80)
        .innerRadius(20)
-       .legend(dc.legend().x(10).y(10).itemHeight(13).gap(5))
+       .legend(dc.legend().x(20).y(20).itemHeight(21).gap(10))
        .minAngleForLabel(0.6)
        .transitionDuration(1500)
        .turnOnControls(true)

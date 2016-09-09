@@ -143,10 +143,11 @@ function makeGraphs(error, categoryDataJson, dealDataJson) {
 
 
    categoryChart
+       .width(450)
        .height(220)
        .radius(90)
        .innerRadius(30)
-       .legend(dc.legend().x(20).y(20).itemHeight(13).gap(5))
+       .legend(dc.legend().x(20).y(20).itemHeight(25).gap(10))
        .minAngleForLabel(0.6)
        .transitionDuration(1500)
        .turnOnControls(true)

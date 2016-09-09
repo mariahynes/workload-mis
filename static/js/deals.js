@@ -102,10 +102,11 @@ function makeGraphs(error, dealDataJson) {
 
 
    categoryChart
+       .width(150)
        .height(280)
        .radius(50)
        .innerRadius(10)
-       .legend(dc.legend().x(10).y(10).itemHeight(13).gap(5))
+       .legend(dc.legend().x(5).y(5).itemHeight(13).gap(5))
        .minAngleForLabel(0.6)
        .transitionDuration(1500)
        .turnOnControls(true)
