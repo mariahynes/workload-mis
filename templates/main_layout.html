@@ -13,12 +13,13 @@
     <title>MIS Workload Data</title>
 
  </head>
-
+<body>
      <div class="container">
-       <div class="page-header">Workload Allocation Dashboard</div>
+       <div class="page-header hidden-xs">Workload Allocation Dashboard</div>
 
+         <br class="visible-xs">
 
-         <nav class="navbar navbar-default">
+         <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <div class="navbar-header">
               <button id="mini-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -35,20 +36,23 @@
                   <li id="li_deals"><a href="{{ url_for('deals') }}"><span class="glyphicon glyphicon-book" ></span> Deals/Projects</a></li>
                   <li id="li_functions"><a href="{{ url_for('functions') }}"><span class="glyphicon glyphicon-list" ></span> Functions</a></li>
                   <li id="li_people"><a href="{{ url_for('people') }}"><span class="glyphicon glyphicon-user" ></span> People</a></li>
-                  <li id="li_tours"><a href="{{ url_for('charts') }}"><span class="glyphicon glyphicon-stats" ></span> Charts</a></li>
-                    <button class="btn-info intro_button" type="button" autofocus onclick="javascript:introJs().start();">Need Help?</button>
+                  <li class="hidden-xs" id="li_tours"><a href="{{ url_for('charts') }}"><span class="glyphicon glyphicon-stats" ></span> Charts</a></li>
+                    <button class="btn-info intro_button hidden-xs" type="button" autofocus onclick="javascript:introJs().start();">Need Help?</button>
                 </ul>
             </div>
           </div>
         </nav>
 
-     </div>
-
-   <div class="container">
+           <!-- <div class="container"> -->
         {% block content %}
      {% endblock %}
-   </div>
-    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/intro.js') }}"></script>
+        <!--</div> -->
+
+
+     </div>
+
  </body>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/js/intro.js') }}"></script>
+
 
 </html>

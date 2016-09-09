@@ -25,7 +25,7 @@ header h1.logo:hover {
    text-decoration: none;
 }
 /* Center the body content */
-.container {
+.container2 {
    width: 940px;
    margin: 0 auto;
 }
@@ -72,6 +72,7 @@ h3 {
    padding:6px;
    color: #999;
    text-decoration: none;
+
 }
 
 
