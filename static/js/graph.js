@@ -231,6 +231,7 @@ function makeGraphs(error, projectsJson) {
     timeChart_TimeSpent
        .width(630)
        .height(150)
+       .ordinalColors(['#0096aa'])
        .margins({top: 10, right: 50, bottom: 30, left: 50})
        .dimension(dateDim)
        .group(totalTimeSpentByMonth)
@@ -249,10 +250,10 @@ function makeGraphs(error, projectsJson) {
    nameChart
        .width(650)
        .height(300)
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489','#ffa388','#a9bcca','#fb9a1d','#e588a3','#14ac00'])
        .dimension(nameDim)
        .group(totalTimeSpentByName)
        .elasticX(true)
-       .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
        .gap(6);
 
 
@@ -260,6 +261,7 @@ function makeGraphs(error, projectsJson) {
    monthChart
        .width(300)
        .height(300)
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489','#ffa388','#a9bcca','#fb9a1d','#e588a3','#14ac00'])
        .dimension(monthDim)
        .group(MISByMonth)
        .xAxis().ticks(4);
@@ -276,6 +278,7 @@ function makeGraphs(error, projectsJson) {
     categoryChart
        .width(450)
        .height(190)
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489'])
        .radius(80)
        .innerRadius(20)
        .legend(dc.legend().x(20).y(20).itemHeight(21).gap(10))

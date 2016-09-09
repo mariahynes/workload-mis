@@ -1,7 +1,7 @@
 {% extends "main_layout.html" %}
 {% block content %}
 
-  <div class="row">
+    <div class="row" xmlns="http://www.w3.org/1999/html">
             <div class="col-xs-12 col-sm-12">
               <div class="panel panel-info"><span class="page_title hidden-xs">{{ the_title }}</span>
                  <div class="panel-heading" data-step="1" data-intro="This page will show all available data from January to current month of year." style="font-weight: normal" data-position="right">
@@ -21,13 +21,17 @@
                                             <!-- menu select -->
 
                                                <div class="chart-wrapper" data-step="2" data-intro="Selecting a Team will filter the Deal/Project List to show items for that team only.<br>Initially the list is set to 'Select All'" style="font-weight: normal" data-position="right">
+
                                                    <div class="chart-title">
                                                        Team
                                                    </div>
                                                    <div class="chart-stage">
                                                        <div id="menu-select-team2"></div>
                                                    </div>
+
                                                </div>
+
+
 
                                            <!-- menu select -->
 
@@ -116,12 +120,18 @@
                                            <div class="chart-title">
                                                Category Breakdown
                                            </div>
-                                           <div class="chart-stage">
+                                           <div class="chart-stage hidden-xs">
                                                <div id="category-chart">
                                                </div>
                                                &nbsp &nbsp<a class='reset'
                                                   href='javascript:categoryChart.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all</a>
-                                           </div>
+                                            </div>
+                                           <div class="chart-stage hidden-lg hidden-md hidden-sm">
+                                               <div id="category-chart_xs">
+                                               </div>
+                                               &nbsp &nbsp<a class='reset'
+                                                  href='javascript:categoryChart_xs.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all</a>
+                                            </div>
 
                                        </div>
 

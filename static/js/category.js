@@ -148,6 +148,7 @@ function makeGraphs(error, categoryDataJson, dealDataJson) {
        .radius(90)
        .innerRadius(30)
        .legend(dc.legend().x(20).y(20).itemHeight(25).gap(10))
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489'])
        .minAngleForLabel(0.6)
        .transitionDuration(1500)
        .turnOnControls(true)
@@ -159,6 +160,7 @@ function makeGraphs(error, categoryDataJson, dealDataJson) {
     dealChart
        .width(450)
        .height(250)
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489','#ffa388','#a9bcca','#fb9a1d','#e588a3','#14ac00'])
        .dimension(dealDim)
        .group(totalTimeSpentByDeal)
        .elasticX(true)

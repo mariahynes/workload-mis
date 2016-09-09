@@ -74,6 +74,7 @@ function makeGraphs(error, dealDataJson) {
     });
 
    categoryChart = dc.pieChart("#category-chart"); //by removing the var here the reset button on the page will work
+   categoryChart_xs = dc.pieChart("#category-chart_xs"); //by removing the var here the reset button on the page will work
 
     //Charts ndx
    dealChart = dc.rowChart("#deal-chart");
@@ -107,6 +108,7 @@ function makeGraphs(error, dealDataJson) {
        .radius(50)
        .innerRadius(10)
        .legend(dc.legend().x(5).y(5).itemHeight(13).gap(5))
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489'])
        .minAngleForLabel(0.6)
        .transitionDuration(1500)
        .turnOnControls(true)
@@ -114,10 +116,25 @@ function makeGraphs(error, dealDataJson) {
        .renderLabel(false)
        .group(totalTimeSpentByCategory);
 
+    categoryChart_xs
+       .width(250)
+       .height(280)
+       .radius(90)
+       .innerRadius(30)
+       .legend(dc.legend().x(2).y(2).itemHeight(10).gap(2))
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489'])
+       .minAngleForLabel(0.8)
+       .transitionDuration(1500)
+       .turnOnControls(true)
+       .dimension(categoryDim)
+       .renderLabel(true)
+       .group(totalTimeSpentByCategory);
+
    //charts ndx
     dealChart
        .width(450)
        .height(2850)
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489','#ffa388','#a9bcca','#fb9a1d','#e588a3','#14ac00'])
        .dimension(dealDim)
        .group(totalTimeSpentByDeal)
        .elasticX(true)

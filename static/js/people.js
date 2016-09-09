@@ -101,6 +101,7 @@ function makeGraphs(error, peopleDataJson) {
    categoryChart
        .width(150)
        .height(280)
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489'])
        .radius(50)
        .innerRadius(10)
        .legend(dc.legend().x(2).y(2).itemHeight(13).gap(5))
@@ -115,10 +116,10 @@ function makeGraphs(error, peopleDataJson) {
     peopleChart
        .width(450)
        .height(400)
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489','#ffa388','#a9bcca','#fb9a1d','#e588a3','#14ac00'])
        .dimension(peopleDim)
        .group(totalTimeSpentByPerson)
        .elasticX(true)
-       .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
        .gap(10);
 
    totalHoursSpentND
