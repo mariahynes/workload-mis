@@ -141,11 +141,13 @@ function makeGraphs(error, projectsJson) {
 
    //Charts
  //   timeChart_ItemsLogged = dc.barChart("#time-chart-items-logged"); //remove 'var' to make reset link work
-    timeChart_TimeSpent = dc.barChart("#time-chart-time-spent"); //remove 'var' to make reset link work
+   timeChart_TimeSpent = dc.barChart("#time-chart-time-spent"); //remove 'var' to make reset link work
+   timeChart_TimeSpent_sm = dc.barChart("#time-chart-time-spent_sm"); //remove 'var' to make reset link work
    var monthChart = dc.rowChart("#month-chart");
-    nameChart = dc.rowChart("#name-row-chart"); //remove 'var' to make reset link work
+   nameChart = dc.rowChart("#name-row-chart"); //remove 'var' to make reset link work
+   nameChart_sm = dc.rowChart("#name-row-chart_sm"); //remove 'var' to make reset link work
    var totalTimeSpentND = dc.numberDisplay("#total-time-spent-nd");
-    categoryChart = dc.pieChart("#category-chart"); //remove 'var' to make reset link work
+   categoryChart = dc.pieChart("#category-chart"); //remove 'var' to make reset link work
    var totalItemsLoggedND = dc.numberDisplay("#total-items-logged-nd");
    var totalHoursSpentND = dc.numberDisplay("#total-hours-spent-nd");
    var totalMinsSpentND = dc.numberDisplay("#total-mins-spent-nd");
@@ -229,22 +231,42 @@ function makeGraphs(error, projectsJson) {
 
 
     timeChart_TimeSpent
-       .width(630)
+       .width(650) //630
        .height(150)
        .ordinalColors(['#0096aa'])
-       .margins({top: 10, right: 50, bottom: 30, left: 50})
+       .margins({top: 10, right: 50, bottom: 30, left: 30})
        .dimension(dateDim)
        .group(totalTimeSpentByMonth)
        .transitionDuration(500)
-        .x(d3.time.scale().domain([minDate, maxDate]))
+       .x(d3.time.scale().domain([minDate, maxDate])) //.x(d3.time.scale().domain([minDate, maxDate]))
        .elasticY(true)
        .elasticX(true)
-        .renderHorizontalGridLines(true)
-        .renderVerticalGridLines(true)
-        .centerBar(true)
-        .gap(1)
-        .yAxis().ticks(4);
+       .renderHorizontalGridLines(true)
+       .renderVerticalGridLines(true)
+       .centerBar(true)
+       .gap(1)
+       .yAxis().ticks(4);
 
+    timeChart_TimeSpent.xAxis().tickFormat(d3.time.format("%b"));
+
+    timeChart_TimeSpent_sm
+       .width(550) //630
+       .height(150)
+       .ordinalColors(['#0096aa'])
+       .margins({top: 10, right: 50, bottom: 30, left: 30})
+       .dimension(dateDim)
+       .group(totalTimeSpentByMonth)
+       .transitionDuration(500)
+       .x(d3.time.scale().domain([minDate, maxDate])) //.x(d3.time.scale().domain([minDate, maxDate]))
+       .elasticY(true)
+       .elasticX(true)
+       .renderHorizontalGridLines(true)
+       .renderVerticalGridLines(true)
+       .centerBar(true)
+       .gap(1)
+       .yAxis().ticks(4);
+
+    timeChart_TimeSpent_sm.xAxis().tickFormat(d3.time.format("%b"));
 
 
    nameChart
@@ -256,7 +278,14 @@ function makeGraphs(error, projectsJson) {
        .elasticX(true)
        .gap(6);
 
-
+    nameChart_sm
+       .width(550)
+       .height(300)
+       .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489','#ffa388','#a9bcca','#fb9a1d','#e588a3','#14ac00'])
+       .dimension(nameDim)
+       .group(totalTimeSpentByName)
+       .elasticX(true)
+       .gap(6);
 
    monthChart
        .width(300)

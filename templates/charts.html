@@ -25,10 +25,15 @@
                                                        <div class="chart-title">
                                                            Days Spent per Month
                                                        </div>
-                                                       <div class="chart-stage" data-step="2" data-intro="Filter the drop-down lists to view time spent on a monthly basis.<br>Click and drag across the chart to select one or a range of months." style="font-weight: normal" data-position="right">
+                                                       <div class="chart-stage hidden-md hidden-xs hidden-sm" data-step="2" data-intro="Filter the drop-down lists to view time spent on a monthly basis.<br>Click and drag across the chart to select one or a range of months." style="font-weight: normal" data-position="right">
                                                            <div id="time-chart-time-spent"></div>
                                                            &nbsp &nbsp &nbsp &nbsp<a class='reset'
                                                               href='javascript:timeChart_TimeSpent.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all </a>
+                                                       </div>
+                                                       <div class="chart-stage hidden-lg" data-step="2" data-intro="Filter the drop-down lists to view time spent on a monthly basis.<br>Click and drag across the chart to select one or a range of months." style="font-weight: normal" data-position="right">
+                                                           <div id="time-chart-time-spent_sm"></div>
+                                                           &nbsp &nbsp &nbsp &nbsp<a class='reset'
+                                                              href='javascript:timeChart_TimeSpent_sm.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all </a>
                                                        </div>
                                                    </div>
                                                </div>
@@ -39,11 +44,16 @@
                                                        <div class="chart-title">
                                                            Team Members
                                                        </div>
-                                                       <div class="chart-stage" data-step="3" data-intro="Filter the drop-down lists to view who spent time on what Projects or Tasks." style="font-weight: normal" data-position="right">
-                                                       <div id="name-row-chart"></div>
-                                                       &nbsp &nbsp &nbsp &nbsp<a class='reset'
+                                                       <div class="chart-stage hidden-md hidden-xs hidden-sm" data-step="3" data-intro="Filter the drop-down lists to view who spent time on what Projects or Tasks." style="font-weight: normal" data-position="right">
+                                                            <div id="name-row-chart"></div>
+                                                            &nbsp &nbsp &nbsp &nbsp<a class='reset'
                                                              href='javascript:nameChart.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all </a>
-                                                   </div>
+                                                       </div>
+                                                       <div class="chart-stage hidden-lg" data-step="3" data-intro="Filter the drop-down lists to view who spent time on what Projects or Tasks." style="font-weight: normal" data-position="right">
+                                                            <div id="name-row-chart_sm"></div>
+                                                            &nbsp &nbsp &nbsp &nbsp<a class='reset'
+                                                             href='javascript:nameChart_sm.filterAll();dc.redrawAll();' style='visibility: visible;'  >Reset to all </a>
+                                                       </div>
                                                    </div>
                                                </div>
                                            </div>
