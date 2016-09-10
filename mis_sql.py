@@ -41,23 +41,33 @@ def data_table():
 def latest_month():
 
     # this will search the table for the LATEST month data available and return the month name
-
-    the_latest_month_qry = db.select(data_table(), ['month_name', 'the_year'], named_tuples=True,
+    try:
+        the_latest_month_qry = db.select(data_table(), ['month_name', 'the_year'], named_tuples=True,
                                      ORDERBY='the_year DESC, month_number DESC', LIMIT='1')
 
-    for row in the_latest_month_qry:
-        the_latest_month = row.month_name
+        for row in the_latest_month_qry:
+            the_latest_month = row.month_name
 
-    return the_latest_month
+        return the_latest_month
+
+    except:
+        print('Database reconnection needed!')
+
+
+
 
 def latest_year():
     # this will search the table for the LATEST year data available and return the year
-    the_latest_month_qry = db.select(data_table(), ['month_name', 'the_year'], named_tuples=True, ORDERBY='the_year DESC, month_number DESC', LIMIT='1')
+    try:
+        the_latest_month_qry = db.select(data_table(), ['month_name', 'the_year'], named_tuples=True, ORDERBY='the_year DESC, month_number DESC', LIMIT='1')
 
-    for row in the_latest_month_qry:
-        the_latest_year = row.the_year
+        for row in the_latest_month_qry:
+            the_latest_year = row.the_year
 
-    return the_latest_year
+        return the_latest_year
+
+    except:
+        print("Error in latest_year")
 
 def earliest_month_in_latest_year():
     #this will search the table for the LATEST year data available and return the name of the earliest month available
