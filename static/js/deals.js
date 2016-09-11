@@ -105,7 +105,7 @@ function makeGraphs(error, dealDataJson) {
 
 
    categoryChart
-       .width(150)
+       .width(135)
        .height(280)
        .radius(50)
        .innerRadius(10)
