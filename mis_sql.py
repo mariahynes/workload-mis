@@ -113,7 +113,7 @@ def month_data():
     #this is called from the Home Page and again uses for the LATEST month data available
 
     the_latest_month = latest_month()
-    the_latest_year = latest_year()
+    the_latest_year = str(latest_year())
 
     all_records = db.select(data_table(), ['category_name','SUM(time_spent) AS time_spent','team_name', 'month_name', 'the_year'],
                             WHERE="the_year= " + the_latest_year + " AND month_name= '" + the_latest_month + "'",
@@ -135,7 +135,7 @@ def month_data():
 def month_deal_data():
     # this is called from the Home Page and again uses the LATEST month data available
     the_latest_month = latest_month()
-    the_latest_year = latest_year()
+    the_latest_year = str(latest_year())
 
     apac_records = db.select(data_table(),
                              ['category_name', 'SUM(time_spent) AS Total_Time', 'team_name', 'month_name',
