@@ -229,7 +229,10 @@ class MySQLDatabase(object):
         cursor = self.db.cursor()
         #cursor.execute(strsql)
         #new line
-        self.__execute_sql(strsql, cursor)
+        #self.__execute_sql(strsql, cursor)
+        if (self.__execute_sql(strsql,cursor))==0:
+            print("running query again")
+            self.__execute_sql(strsql, cursor)
 
         if named_tuples:
             results = self.convert_to_named_tuples(cursor)
