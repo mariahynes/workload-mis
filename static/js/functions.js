@@ -103,7 +103,7 @@ function makeGraphs(error, functionDataJson) {
 
 
    categoryChart
-       .width(140)
+       .width(135)
        .height(280)
        .ordinalColors(['#0096aa','#e8cc86','#e5bcc0','#9fd175','#cf8489'])
        .radius(50)
