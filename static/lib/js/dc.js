@@ -6193,7 +6193,9 @@ dc.selectMenu = function (parent, chartGroup) {
 
         switchMultipleSelectOption();
         switchSizeOption(); //added by MH 20160726
-        _select.append('option').text(_promptText).attr('value', '');
+        //line below extended by MH 20160911 so that SELECT MENU will display with highlighted/selected top item when it first opens
+        //_select.append('option').text(_promptText).attr('value', '');
+         _select.append('option').text(_promptText).attr('value', '').property('selected', true);
         renderOptions();
         return _chart;
     };
