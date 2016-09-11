@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="acb56f2f-c97b-44fc-9780-f66bb9bec24b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/mysql.py" afterPath="$PROJECT_DIR$/database/mysql.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mis_sql.py" afterPath="$PROJECT_DIR$/mis_sql.py" />
     </list>
     <ignored path="workload-mis.iws" />
@@ -30,12 +31,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mis_sql.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mis_sql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mis_sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="135" column="86" selection-start-line="135" selection-start-column="86" selection-end-line="135" selection-end-column="86" />
+            <state relative-caret-position="429">
+              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="195" column="38" selection-start-line="195" selection-start-column="38" selection-end-line="195" selection-end-column="38" />
+              <folding>
+                <marker date="1473609315395" expanded="true" signature="8164:8179" ph="DELETE FROM " />
+                <marker date="1473609315395" expanded="true" signature="9449:9464" ph="INSERT INTO missing_value.missing_value... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +65,6 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/database/mysql_BAK.py" />
-        <option value="$PROJECT_DIR$/database/mysql.py" />
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/test_mis_sql.py" />
         <option value="$PROJECT_DIR$/templates/deals_BAK.html" />
@@ -72,6 +85,7 @@
         <option value="$PROJECT_DIR$/static/js/graph.js" />
         <option value="$PROJECT_DIR$/templates/charts.html" />
         <option value="$PROJECT_DIR$/mis_sql.py" />
+        <option value="$PROJECT_DIR$/database/mysql.py" />
       </list>
     </option>
   </component>
@@ -621,7 +635,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23516238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4143337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33006737" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -694,8 +708,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1473281917142" expanded="true" signature="8067:8082" ph="DELETE FROM " />
-            <marker date="1473281917142" expanded="true" signature="9352:9367" ph="INSERT INTO missing_value.missing_value... " />
+            <marker date="1473609315395" expanded="true" signature="8164:8179" ph="DELETE FROM " />
+            <marker date="1473609315395" expanded="true" signature="9449:9464" ph="INSERT INTO missing_value.missing_value... " />
           </folding>
         </state>
       </provider>
@@ -763,8 +777,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1473281917142" expanded="true" signature="8067:8082" ph="DELETE FROM " />
-            <marker date="1473281917142" expanded="true" signature="9352:9367" ph="INSERT INTO missing_value.missing_value... " />
+            <marker date="1473609315395" expanded="true" signature="8164:8179" ph="DELETE FROM " />
+            <marker date="1473609315395" expanded="true" signature="9449:9464" ph="INSERT INTO missing_value.missing_value... " />
           </folding>
         </state>
       </provider>
@@ -977,17 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2056">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-          <folding>
-            <marker date="1473281917142" expanded="true" signature="8067:8082" ph="DELETE FROM " />
-            <marker date="1473281917142" expanded="true" signature="9352:9367" ph="INSERT INTO missing_value.missing_value... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/charts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1022,9 +1025,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mis_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="135" column="86" selection-start-line="135" selection-start-column="86" selection-end-line="135" selection-end-column="86" />
+        <state relative-caret-position="429">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="195" column="38" selection-start-line="195" selection-start-column="38" selection-end-line="195" selection-end-column="38" />
+          <folding>
+            <marker date="1473609315395" expanded="true" signature="8164:8179" ph="DELETE FROM " />
+            <marker date="1473609315395" expanded="true" signature="9449:9464" ph="INSERT INTO missing_value.missing_value... " />
+          </folding>
         </state>
       </provider>
     </entry>

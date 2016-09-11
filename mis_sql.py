@@ -72,14 +72,17 @@ def latest_year():
 
 def earliest_month_in_latest_year():
     #this will search the table for the LATEST year data available and return the name of the earliest month available
-    the_earliest_month_qry = db.select(data_table(), ['month_name', 'the_year'], named_tuples=True,
-                                     ORDERBY='the_year DESC, month_number ASC', LIMIT='1')
+    try:
+        the_earliest_month_qry = db.select(data_table(), ['month_name', 'the_year'], named_tuples=True,
+                                         ORDERBY='the_year DESC, month_number ASC', LIMIT='1')
 
 
-    for row in the_earliest_month_qry:
-        the_earliest_month = row.month_name
+        for row in the_earliest_month_qry:
+            the_earliest_month = row.month_name
 
-    return the_earliest_month
+        return the_earliest_month
+    except:
+        print("Error in earliest_month_in_latest_year")
 
 def current_year():
     now = datetime.datetime.now()
