@@ -58,13 +58,14 @@ def latest_month():
 
 def latest_year():
     # this will search the table for the LATEST year data available and return the year
+    # formatted as a string
     try:
         the_latest_month_qry = db.select(data_table(), ['month_name', 'the_year'], named_tuples=True, ORDERBY='the_year DESC, month_number DESC', LIMIT='1')
 
         for row in the_latest_month_qry:
             the_latest_year = row.the_year
 
-        return the_latest_year
+        return str(the_latest_year)
 
     except:
         print("Error in latest_year")
@@ -115,7 +116,7 @@ def month_data():
     the_latest_year = latest_year()
 
     all_records = db.select(data_table(), ['category_name','SUM(time_spent) AS time_spent','team_name', 'month_name', 'the_year'],
-                            WHERE="the_year= " + str(the_latest_year) + " AND month_name= '" + the_latest_month + "'",
+                            WHERE="the_year= " + the_latest_year + " AND month_name= '" + the_latest_month + "'",
                             named_tuples=True, GROUPBY='team_name,category_name', LIMIT='10000')
 
     json_mis = []
@@ -139,14 +140,14 @@ def month_deal_data():
     apac_records = db.select(data_table(),
                              ['category_name', 'SUM(time_spent) AS Total_Time', 'team_name', 'month_name',
                               'model_name', 'the_year'],
-                             WHERE="model_name NOT IN('NA', 'N/A') AND the_year=" + str(the_latest_year) + " AND month_name= '" + the_latest_month + "' AND team_name !='EMEA'",
+                             WHERE="model_name NOT IN('NA', 'N/A') AND the_year=" + the_latest_year + " AND month_name= '" + the_latest_month + "' AND team_name !='EMEA'",
                              named_tuples=True, GROUPBY='model_name', ORDERBY='Total_Time DESC', UNION=True,
                              LIMIT='5')
 
     emea_records = db.select(data_table(),
                              ['category_name', 'SUM(time_spent) AS Total_Time', 'team_name', 'month_name',
                               'model_name', 'the_year'],
-                             WHERE="model_name NOT IN('NA', 'N/A') AND the_year=" + str(the_latest_year) + " AND month_name= '" + the_latest_month + "' AND team_name ='EMEA'",
+                             WHERE="model_name NOT IN('NA', 'N/A') AND the_year=" + the_latest_year + " AND month_name= '" + the_latest_month + "' AND team_name ='EMEA'",
                              named_tuples=True, GROUPBY='model_name', ORDERBY='Total_Time DESC', UNION=True,
                              LIMIT='5')
 
@@ -185,7 +186,7 @@ def team_data():
     # this is called from the Charts Page and returns ALL data available (limit 20000)
     the_latest_year = latest_year()
 
-    all_records = db.select(data_table(), WHERE="the_year=" + str(the_latest_year), named_tuples=True, LIMIT='20000')
+    all_records = db.select(data_table(), WHERE="the_year=" + the_latest_year, named_tuples=True, LIMIT='20000')
 
     json_mis = []
     for record in all_records:
@@ -222,7 +223,7 @@ def deal_data():
 
     all_records = db.select(data_table(),
                             ['category_name', 'time_spent', 'team_name', 'date_entered','month_name', 'model_name',
-                             'the_year', 'month_number'], WHERE="the_year = " + str(the_latest_year) + " AND model_name !='N/A'", named_tuples=True,
+                             'the_year', 'month_number'], WHERE="the_year = " + the_latest_year + " AND model_name !='N/A'", named_tuples=True,
                             LIMIT='20000')
 
     json_mis = []
@@ -259,7 +260,7 @@ def function_data():
 
     all_records = db.select(data_table(),
                             ['category_name', 'time_spent', 'team_name', 'date_entered','month_name', 'function_name',
-                             'the_year', 'month_number'], WHERE="the_year = " + str(the_latest_year), named_tuples=True,
+                             'the_year', 'month_number'], WHERE="the_year = " + the_latest_year, named_tuples=True,
                             LIMIT='20000')
 
     json_mis = []
@@ -297,7 +298,7 @@ def people_data():
 
     all_records = db.select(data_table(),
                             ['category_name', 'time_spent', 'team_name', 'date_entered','month_name', 'user_name',
-                             'the_year', 'month_number'], WHERE="the_year = " + str(the_latest_year), named_tuples=True,
+                             'the_year', 'month_number'], WHERE="the_year = " + the_latest_year, named_tuples=True,
                             LIMIT='20000')
 
     json_mis = []
