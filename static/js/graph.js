@@ -233,7 +233,7 @@ function makeGraphs(error, projectsJson) {
     timeChart_TimeSpent
        .width(650) //630
        .height(150)
-       .ordinalColors(['#0096aa'])
+       .ordinalColors(['#cf8489'])
        .margins({top: 10, right: 50, bottom: 30, left: 30})
        .dimension(dateDim)
        .group(totalTimeSpentByMonth)
@@ -252,7 +252,7 @@ function makeGraphs(error, projectsJson) {
     timeChart_TimeSpent_sm
        .width(550) //630
        .height(150)
-       .ordinalColors(['#0096aa'])
+       .ordinalColors(['#cf8489'])
        .margins({top: 10, right: 50, bottom: 30, left: 30})
        .dimension(dateDim)
        .group(totalTimeSpentByMonth)
