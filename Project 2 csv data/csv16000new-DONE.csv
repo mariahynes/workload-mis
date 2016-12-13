@@ -1,0 +1,525 @@
+model_name,date_entered,user_name,function_name,time_spent,team_name,category_name,the_year,month_name,month_number
+Slaid Newer Agency,18-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Slaid Newer Agency,18-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Slaid Newer Agency,18-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Spiddle Bank,18-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Spiddle Bank,18-Dec-15,Mary Henderson,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2008,18-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Triggnum 2008,18-Dec-15,Mary Henderson,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2015,18-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,18-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,18-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,18-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Usualli,18-Dec-15,Cian Smith,New Deal | Modeling,450,EMEA,New Business,2015,December,12
+Usualli,18-Dec-15,Kian Dooley,New Deal | QC,120,EMEA,New Business,2015,December,12
+YD,18-Dec-15,Brendan Stafford,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+YD,18-Dec-15,Mary Henderson,BAU Deal | Reporting,90,EMEA,Reporting,2015,December,12
+YD,18-Dec-15,Mary Henderson,BAU Deal | CR,30,EMEA,Support,2015,December,12
+YD,18-Dec-15,Brendan Stafford,BAU Deal | CR,15,EMEA,Support,2015,December,12
+YD MESPIL,18-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MESPIL,18-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD MILE,18-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MILE,18-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+YD SIGN,18-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD SIGN,18-Dec-15,Mary Henderson,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+111A Standard,21-Dec-15,Michael O'Neill,New Deal | Document Review,90,APAC,New Business,2015,December,12
+111A Standard,21-Dec-15,Michael O'Neill,BAU Deal | Reporting,180,APAC,Reporting,2015,December,12
+ASAP Note Distribution Reports,21-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+Belgium 1,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Belgium 1,21-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,21-Dec-15,Kian Dooley,BAU Deal | Research/Investigation,90,EMEA,Support,2015,December,12
+BYA Support,21-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYA Support,21-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,21-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,21-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+Mantle,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Mantle,21-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Cashflow,21-Dec-15,Kian Dooley,BAU Deal | CR,10,EMEA,Support,2015,December,12
+Cashflow,21-Dec-15,Kian Dooley,BAU Deal | CR,10,EMEA,Support,2015,December,12
+Cashflow,21-Dec-15,Kian Dooley,BAU Deal | CR,30,EMEA,Support,2015,December,12
+Castlerock Cuba,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Castlerock Cuba,21-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Deal Rules Amster,21-Dec-15,Michael O'Neill,Project,60,APAC,Project,2015,December,12
+Deal Rules Honlong,21-Dec-15,Ryan Grady,Project,120,APAC,Project,2015,December,12
+Deal Rules Honlong,21-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+Deal Rules Honlong,21-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+Deal Rules Honlong,21-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+Deal Rules Honlong,21-Dec-15,Ian Lawton,Project,60,APAC,Project,2015,December,12
+Deal Rules Honlong,21-Dec-15,Michael O'Neill,Project,150,APAC,Project,2015,December,12
+Deal Rules Signat,21-Dec-15,Ian Lawton,Project,120,APAC,Project,2015,December,12
+FIFI Reporting,21-Dec-15,Ian Lawton,Project,120,APAC,Project,2015,December,12
+GTL,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,21-Dec-15,Mary Henderson,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,21-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+GTL,21-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+IAQ Migration,21-Dec-15,Ryan Grady,Project,120,APAC,Project,2015,December,12
+JOF Reporting,21-Dec-15,Kian Dooley,Project,30,EMEA,Project,2015,December,12
+Loude Art Facility Agent,21-Dec-15,Ryan Grady,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+Lyahinha,21-Dec-15,Brendan Stafford,BAU Deal | Modeling/Enhancements,20,EMEA,Support,2015,December,12
+N/A,21-Dec-15,Brendan Stafford,Other | Research/Investigation,10,EMEA,Other,2015,December,12
+N/A,21-Dec-15,Mike Connolly,Other | Out of the Office,480,APAC,Other,2015,December,12
+N/A,21-Dec-15,Brendan Stafford,Other | Meetings,40,EMEA,Other,2015,December,12
+N/A,21-Dec-15,Kian Dooley,Other | Research/Investigation,20,EMEA,Other,2015,December,12
+N/A,21-Dec-15,Kian Dooley,Other | Meetings,30,EMEA,Other,2015,December,12
+N/A,21-Dec-15,Kian Dooley,Other | Research/Investigation,30,EMEA,Other,2015,December,12
+N/A,21-Dec-15,Cian Smith,Other | Out of the Office,450,EMEA,Other,2015,December,12
+N/A,21-Dec-15,Ryan Grady,Other | Research/Investigation,60,APAC,Other,2015,December,12
+Pack Shard 2014-2,21-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+Pack Shard 2014-2,21-Dec-15,Ian Lawton,BAU Deal | Modeling/Enhancements,60,APAC,Support,2015,December,12
+Pack Shard 2015-1,21-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+POI Energy Facility Agent,21-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+POI Energy Facility Agent,21-Dec-15,Ian Lawton,BAU Deal | Modeling/Enhancements,120,APAC,Support,2015,December,12
+Project Round II,21-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+Sealion,21-Dec-15,Ryan Grady,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+Spiddle Bank,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Spiddle Bank,21-Dec-15,Mary Henderson,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2008,21-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Triggnum 2008,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2015,21-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,21-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+UDT,21-Dec-15,Kian Dooley,Project,60,EMEA,Project,2015,December,12
+Usualli,21-Dec-15,Kian Dooley,New Deal | QC,150,EMEA,New Business,2015,December,12
+YD,21-Dec-15,Mary Henderson,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+YD,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,90,EMEA,Reporting,2015,December,12
+YD MESPIL,21-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MESPIL,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD MILE,21-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MILE,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+YD SIGN,21-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD SIGN,21-Dec-15,Mary Henderson,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+111A Standard,22-Dec-15,Michael O'Neill,New Deal | Document Review,90,APAC,New Business,2015,December,12
+111A Standard,22-Dec-15,Michael O'Neill,BAU Deal | Reporting,240,APAC,Reporting,2015,December,12
+ABA GLOW,22-Dec-15,Mary Henderson,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+ABA GLOW,22-Dec-15,Kian Dooley,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+ASAP Note Distribution Reports,22-Dec-15,Ryan Grady,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+ASAP Note Distribution Reports,22-Dec-15,Ryan Grady,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+Belgium 1,22-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Belgium 1,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,22-Dec-15,Kian Dooley,BAU Deal | Research/Investigation,150,EMEA,Support,2015,December,12
+BYA Support,22-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYA Support,22-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,22-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,22-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+Mantle,22-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Mantle,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Castlerock Cuba,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Castlerock Cuba,22-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Deal Rules Amster,22-Dec-15,Ryan Grady,Project,60,APAC,Project,2015,December,12
+Deal Rules Honlong,22-Dec-15,Ryan Grady,Project,60,APAC,Project,2015,December,12
+Deal Rules Honlong,22-Dec-15,Fiona Wilson,BAU Deal | Reporting,180,APAC,Reporting,2015,December,12
+Deal Rules Honlong,22-Dec-15,Ian Lawton,Project,120,APAC,Project,2015,December,12
+Deal Rules Signat,22-Dec-15,Ian Lawton,Project,120,APAC,Project,2015,December,12
+GTL,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,22-Dec-15,Mary Henderson,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,22-Dec-15,Mary Henderson,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+GTL,22-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+IPD Facility Agent,22-Dec-15,Fiona Wilson,BAU Deal | Reporting,180,APAC,Reporting,2015,December,12
+JOF Reporting,22-Dec-15,Kian Dooley,Project,20,EMEA,Project,2015,December,12
+Lyahinha,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Lyahinha,22-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+Moon Gas Facility Agent,22-Dec-15,Ian Lawton,BAU Deal | Modeling/Enhancements,180,APAC,Support,2015,December,12
+N/A,22-Dec-15,Mike Connolly,Other | Out of the Office,480,APAC,Other,2015,December,12
+N/A,22-Dec-15,Kian Dooley,Other | Research/Investigation,10,EMEA,Other,2015,December,12
+N/A,22-Dec-15,Michael O'Neill,Other | Research/Investigation,60,APAC,Other,2015,December,12
+N/A,22-Dec-15,Cian Smith,Other | Out of the Office,450,EMEA,Other,2015,December,12
+N/A,22-Dec-15,Michael O'Neill,Other | Meetings,60,APAC,Other,2015,December,12
+Pack Shard 2015-1,22-Dec-15,Ryan Grady,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+POI Energy Facility Agent,22-Dec-15,Ian Lawton,BAU Deal | Modeling/Enhancements,60,APAC,Support,2015,December,12
+Spiddle Bank,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Spiddle Bank,22-Dec-15,Mary Henderson,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+TGAS Banking Corp - Facility Agent,22-Dec-15,Fiona Wilson,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+Triggnum 2008,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Triggnum 2008,22-Dec-15,Mary Henderson,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2015,22-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,22-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Usualli,22-Dec-15,Kian Dooley,New Deal | QC,270,EMEA,New Business,2015,December,12
+YD,22-Dec-15,Mary Henderson,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+YD,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,90,EMEA,Reporting,2015,December,12
+YD MESPIL,22-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MESPIL,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD MILE,22-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MILE,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+YD MILE,22-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MILE,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD SIGN,22-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD SIGN,22-Dec-15,Mary Henderson,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+111A Standard,23-Dec-15,Michael O'Neill,New Deal | Document Review,150,APAC,New Business,2015,December,12
+111A Standard,23-Dec-15,Michael O'Neill,BAU Deal | Reporting,180,APAC,Reporting,2015,December,12
+Belgium 1,23-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Belgium 1,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,23-Dec-15,Kian Dooley,BAU Deal | Research/Investigation,60,EMEA,Support,2015,December,12
+BYA Support,23-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYA Support,23-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,23-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,23-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+Mantle,23-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Mantle,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Cashflow,23-Dec-15,Kian Dooley,BAU Deal | CR,20,EMEA,Support,2015,December,12
+Castlerock Cuba,23-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Castlerock Cuba,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Deal Rules Amster,23-Dec-15,Ian Lawton,Project,120,APAC,Project,2015,December,12
+Deal Rules Honlong,23-Dec-15,Ryan Grady,Project,60,APAC,Project,2015,December,12
+Deal Rules Honlong,23-Dec-15,Ian Lawton,Project,120,APAC,Project,2015,December,12
+FIRE Document Review,23-Dec-15,Fiona Wilson,New Deal | Document Review,60,APAC,New Business,2015,December,12
+FIRE Document Review,23-Dec-15,Ryan Grady,BAU Deal | QC,180,APAC,Support,2015,December,12
+FIRE Document Review,23-Dec-15,Ian Lawton,New Deal | Document Review,60,APAC,New Business,2015,December,12
+FIRE Document Review,23-Dec-15,Ian Lawton,New Deal | Document Review,60,APAC,New Business,2015,December,12
+GTL,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,23-Dec-15,Mary Henderson,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,23-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+GTL,23-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+IAQ Migration,23-Dec-15,Ryan Grady,Project,120,APAC,Project,2015,December,12
+IAQ Migration,23-Dec-15,Ryan Grady,Project,60,APAC,Project,2015,December,12
+Lyahinha,23-Dec-15,Cian Smith,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Lyahinha,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+N/A,23-Dec-15,Mike Connolly,Other | Out of the Office,480,APAC,Other,2015,December,12
+N/A,23-Dec-15,Kian Dooley,Other | Out of the Office,230,EMEA,Other,2015,December,12
+N/A,23-Dec-15,Michael O'Neill,Other | Research/Investigation,120,APAC,Other,2015,December,12
+Pack Shard 2014-2,23-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+Pack Shard 2015-1,23-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+Pack Shard 2015-1,23-Dec-15,Ryan Grady,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+SCOURED,23-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+SCOURED,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Spiddle Bank,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Spiddle Bank,23-Dec-15,Mary Henderson,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+TGAS Banking Corp - Facility Agent,23-Dec-15,Fiona Wilson,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+Triggnum 2008,23-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Triggnum 2008,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2015,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,23-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,23-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Usualli,23-Dec-15,Kian Dooley,New Deal | QC,180,EMEA,New Business,2015,December,12
+Usualli,23-Dec-15,Cian Smith,New Deal | Modeling,450,EMEA,New Business,2015,December,12
+YD,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+YD,23-Dec-15,Mary Henderson,BAU Deal | Reporting,90,EMEA,Reporting,2015,December,12
+YD MESPIL,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MESPIL,23-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD MILE,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MILE,23-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+YD SIGN,23-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD SIGN,23-Dec-15,Mary Henderson,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+YS3,23-Dec-15,Ian Lawton,BAU Deal | Modeling/Enhancements,60,APAC,Support,2015,December,12
+YS4,23-Dec-15,Fiona Wilson,BAU Deal | Reporting,180,APAC,Reporting,2015,December,12
+YS4,23-Dec-15,Ian Lawton,BAU Deal | Modeling/Enhancements,60,APAC,Support,2015,December,12
+111A Standard,24-Dec-15,Michael O'Neill,BAU Deal | Reporting,240,APAC,Reporting,2015,December,12
+111A Standard,24-Dec-15,Michael O'Neill,BAU Deal | Document Review,90,APAC,Support,2015,December,12
+Barista Meddio,24-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Barista Meddio,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Belgium 1,24-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Belgium 1,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,24-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYA Support,24-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,24-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,24-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+Mantle,24-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Mantle,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Castlerock Cuba,24-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Castlerock Cuba,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Deal Rules Amster,24-Dec-15,Ryan Grady,Project,60,APAC,Project,2015,December,12
+Deal Rules Amster,24-Dec-15,Ian Lawton,Project,60,APAC,Project,2015,December,12
+FIRE Document Review,24-Dec-15,Ian Lawton,New Deal | Document Review,60,APAC,New Business,2015,December,12
+GTL,24-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,24-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+GTL,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+GTL,24-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+GTL,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+GTL,24-Dec-15,Kian Dooley,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,24-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+GTL,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+GTL,24-Dec-15,Cian Smith,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+GTL,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+Lyahinha,24-Dec-15,Cian Smith,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Lyahinha,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+N/A,24-Dec-15,Michael O'Neill,Other | Research/Investigation,120,APAC,Other,2015,December,12
+N/A,24-Dec-15,Mike Connolly,Other | Out of the Office,480,APAC,Other,2015,December,12
+N/A,24-Dec-15,Fiona Wilson,Other | Out of the Office,180,APAC,Other,2015,December,12
+Slaid Newer Agency,24-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Slaid Newer Agency,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Slaid Newer Agency,24-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Slaid Newer Agency,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Spiddle Bank,24-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Spiddle Bank,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2008,24-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Triggnum 2008,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2015,24-Dec-15,Kian Dooley,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,24-Dec-15,Kian Dooley,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Usualli,24-Dec-15,Kian Dooley,New Deal | QC,120,EMEA,New Business,2015,December,12
+Usualli,24-Dec-15,Cian Smith,New Deal | Modeling,450,EMEA,New Business,2015,December,12
+YD,24-Dec-15,Cian Smith,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+YD,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,90,EMEA,Reporting,2015,December,12
+YD MESPIL,24-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MESPIL,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD MILE,24-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MILE,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+YD SIGN,24-Dec-15,Kian Dooley,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+YD SIGN,24-Dec-15,Brendan Stafford,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+YS1,24-Dec-15,Ryan Grady,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+YS1,24-Dec-15,Ian Lawton,BAU Deal | Modeling/Enhancements,60,APAC,Support,2015,December,12
+YS2,24-Dec-15,Ryan Grady,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+YS2,24-Dec-15,Ian Lawton,BAU Deal | Modeling/Enhancements,60,APAC,Support,2015,December,12
+YS3,24-Dec-15,Ryan Grady,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+YS5,24-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+YS5,24-Dec-15,Ian Lawton,BAU Deal | Modeling/Enhancements,60,APAC,Support,2015,December,12
+YS6,24-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+YS7,24-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+YS7,24-Dec-15,Ian Lawton,BAU Deal | Modeling/Enhancements,60,APAC,Support,2015,December,12
+YS8,24-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+YS8,24-Dec-15,Ian Lawton,BAU Deal | Modeling/Enhancements,60,APAC,Support,2015,December,12
+YS9,24-Dec-15,Ryan Grady,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+YS9,24-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+YS9,24-Dec-15,Ian Lawton,BAU Deal | Modeling/Enhancements,60,APAC,Support,2015,December,12
+N/A,25-Dec-15,Mike Connolly,Other | Out of the Office,480,APAC,Other,2015,December,12
+N/A,25-Dec-15,Kian Dooley,Other | Out of the Office,450,EMEA,Other,2015,December,12
+N/A,25-Dec-15,Cian Smith,Other | Out of the Office,450,EMEA,Other,2015,December,12
+N/A,25-Dec-15,Ryan Grady,Other | Out of the Office,480,APAC,Other,2015,December,12
+N/A,25-Dec-15,Fiona Wilson,Other | Out of the Office,480,APAC,Other,2015,December,12
+N/A,25-Dec-15,Ian Lawton,Other | Out of the Office,480,APAC,Other,2015,December,12
+N/A,25-Dec-15,Michael O'Neill,Other | Out of the Office,450,APAC,Other,2015,December,12
+111A Standard,28-Dec-15,Michael O'Neill,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+111A Standard,28-Dec-15,Michael O'Neill,BAU Deal | Document Review,90,APAC,Support,2015,December,12
+Deal Rules Amster,28-Dec-15,Michael O'Neill,Project,120,APAC,Project,2015,December,12
+Deal Rules Honlong,28-Dec-15,Fiona Wilson,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+Deal Rules Honlong,28-Dec-15,Ian Lawton,Project,120,APAC,Project,2015,December,12
+Excel Update,28-Dec-15,Ian Lawton,Project,240,APAC,Project,2015,December,12
+FIRE Document Review,28-Dec-15,Fiona Wilson,New Deal | Document Review,120,APAC,New Business,2015,December,12
+LID Investor Reporting,28-Dec-15,Fiona Wilson,BAU Deal | Reporting,240,APAC,Reporting,2015,December,12
+N/A,28-Dec-15,Ian Lawton,Other | Research/Investigation,60,APAC,Other,2015,December,12
+N/A,28-Dec-15,Mike Connolly,Other | Out of the Office,480,APAC,Other,2015,December,12
+N/A,28-Dec-15,Kian Dooley,Other | Out of the Office,450,EMEA,Other,2015,December,12
+N/A,28-Dec-15,Michael O'Neill,Other | Research/Investigation,120,APAC,Other,2015,December,12
+N/A,28-Dec-15,Cian Smith,Other | Out of the Office,450,EMEA,Other,2015,December,12
+N/A,28-Dec-15,Owen Chase,Other | Research/Investigation,180,APAC,Other,2015,December,12
+N/A,28-Dec-15,Ryan Grady,Other | Out of the Office,480,APAC,Other,2015,December,12
+Tower Sky,28-Dec-15,Ian Lawton,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+111A Standard,29-Dec-15,Michael O'Neill,BAU Deal | Reporting,240,APAC,Reporting,2015,December,12
+AIR CPI Deals,29-Dec-15,Fiona Wilson,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+Beach DB,29-Dec-15,Fiona Wilson,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+Belgium 1,29-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Belgium 1,29-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,29-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,29-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYA Support,29-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,29-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,29-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,29-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,29-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,29-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+Mantle,29-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Mantle,29-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Castlerock Cuba,29-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Castlerock Cuba,29-Dec-15,Cian Smith,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Deal Rules Amster,29-Dec-15,Michael O'Neill,Project,90,APAC,Project,2015,December,12
+Deal Rules Honlong,29-Dec-15,Ian Lawton,Project,120,APAC,Project,2015,December,12
+Deal Rules Signat,29-Dec-15,Fiona Wilson,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+Excel Update,29-Dec-15,Ian Lawton,Project,240,APAC,Project,2015,December,12
+FIFI Reporting,29-Dec-15,Owen Chase,Project,300,APAC,Project,2015,December,12
+FIRE Document Review,29-Dec-15,Ryan Grady,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+FIRE Document Review,29-Dec-15,Ryan Grady,BAU Deal | Reporting,180,APAC,Reporting,2015,December,12
+GTL,29-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,29-Dec-15,Mary Henderson,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,29-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,29-Dec-15,Mary Henderson,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,29-Dec-15,Cian Smith,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+GTL,29-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+IAQ Migration,29-Dec-15,Ryan Grady,Project,180,APAC,Project,2015,December,12
+ISQ Administration,29-Dec-15,Fiona Wilson,BAU Deal | Shadow Reporting,120,APAC,Support,2015,December,12
+Lyahinha,29-Dec-15,Cian Smith,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Lyahinha,29-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+N/A,29-Dec-15,Ian Lawton,Other | Research/Investigation,120,APAC,Other,2015,December,12
+N/A,29-Dec-15,Michael O'Neill,Other | Research/Investigation,120,APAC,Other,2015,December,12
+N/A,29-Dec-15,Mike Connolly,Other | Out of the Office,480,APAC,Other,2015,December,12
+N/A,29-Dec-15,Kian Dooley,Other | Out of the Office,450,EMEA,Other,2015,December,12
+N/A,29-Dec-15,Owen Chase,Other | Research/Investigation,120,APAC,Other,2015,December,12
+Sealion,29-Dec-15,Ryan Grady,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+Spiddle Bank,29-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Spiddle Bank,29-Dec-15,Mary Henderson,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2008,29-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Triggnum 2008,29-Dec-15,Mary Henderson,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2015,29-Dec-15,Cian Smith,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,29-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,29-Dec-15,Cian Smith,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,29-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Usualli,29-Dec-15,Cian Smith,New Deal | Modeling,60,EMEA,New Business,2015,December,12
+YD,29-Dec-15,Cian Smith,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+YD,29-Dec-15,Mary Henderson,BAU Deal | Reporting,90,EMEA,Reporting,2015,December,12
+YD MESPIL,29-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MESPIL,29-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD MILE,29-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MILE,29-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+YD MILE,29-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MILE,29-Dec-15,Mary Henderson,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD SIGN,29-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD SIGN,29-Dec-15,Mary Henderson,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+111A Standard,30-Dec-15,Michael O'Neill,BAU Deal | Reporting,240,APAC,Reporting,2015,December,12
+AIR CPI Deals,30-Dec-15,Fiona Wilson,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+ASAP Note Distribution Reports,30-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+Belgium 1,30-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Belgium 1,30-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,30-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,30-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYA Support,30-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,30-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,30-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,30-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,30-Dec-15,Cian Smith,BAU Deal | CR,5,EMEA,Support,2015,December,12
+BYB Summer,30-Dec-15,Kian Dooley,BAU Deal | CR,390,EMEA,Support,2015,December,12
+BYB Summer,30-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,30-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,30-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,30-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+Mantle,30-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Mantle,30-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Castlerock Cuba,30-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Castlerock Cuba,30-Dec-15,Cian Smith,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Deal Rules Amster,30-Dec-15,Ryan Grady,Project,60,APAC,Project,2015,December,12
+Deal Rules Amster,30-Dec-15,Michael O'Neill,Project,90,APAC,Project,2015,December,12
+Deal Rules Amster,30-Dec-15,Ian Lawton,Project,120,APAC,Project,2015,December,12
+Deal Rules Honlong,30-Dec-15,Fiona Wilson,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+Deal Rules Signat,30-Dec-15,Fiona Wilson,BAU Deal | Reporting,180,APAC,Reporting,2015,December,12
+Excel Update,30-Dec-15,Ian Lawton,Project,360,APAC,Project,2015,December,12
+FIFI Reporting,30-Dec-15,Owen Chase,Project,300,APAC,Project,2015,December,12
+FIRE Document Review,30-Dec-15,Ryan Grady,BAU Deal | Reporting,180,APAC,Reporting,2015,December,12
+GTL,30-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,30-Dec-15,Mary Henderson,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,30-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,30-Dec-15,Mary Henderson,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,30-Dec-15,Cian Smith,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+GTL,30-Dec-15,Mary Henderson,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+IAQ Migration,30-Dec-15,Ryan Grady,Project,60,APAC,Project,2015,December,12
+Lyahinha,30-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Lyahinha,30-Dec-15,Mary Henderson,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+N/A,30-Dec-15,Michael O'Neill,Other | Research/Investigation,120,APAC,Other,2015,December,12
+N/A,30-Dec-15,Mike Connolly,Other | Out of the Office,480,APAC,Other,2015,December,12
+N/A,30-Dec-15,Kian Dooley,Other | Out of the Office,450,EMEA,Other,2015,December,12
+N/A,30-Dec-15,Owen Chase,Other | Research/Investigation,180,APAC,Other,2015,December,12
+Pack Shard 2015-1,30-Dec-15,Ryan Grady,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+SCOURED,30-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+SCOURED,30-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Spiddle Bank,30-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Spiddle Bank,30-Dec-15,Mary Henderson,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2008,30-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Triggnum 2008,30-Dec-15,Mary Henderson,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2015,30-Dec-15,Cian Smith,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,30-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,30-Dec-15,Cian Smith,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,30-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Usualli,30-Dec-15,Cian Smith,New Deal | Modeling,60,EMEA,New Business,2015,December,12
+YD,30-Dec-15,Cian Smith,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+YD,30-Dec-15,Mary Henderson,BAU Deal | Reporting,90,EMEA,Reporting,2015,December,12
+YD MESPIL,30-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MESPIL,30-Dec-15,Mary Henderson,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD MILE,30-Dec-15,Cian Smith,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MILE,30-Dec-15,Mary Henderson,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+YD MILE,30-Dec-15,Cian Smith,BAU Deal | CR,60,EMEA,Support,2015,December,12
+YD MILE,30-Dec-15,Brendan Stafford,BAU Deal | CR,20,EMEA,Support,2015,December,12
+YD SIGN,30-Dec-15,Cian Smith,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD SIGN,30-Dec-15,Mary Henderson,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+111A Standard,31-Dec-15,Michael O'Neill,BAU Deal | Reporting,330,APAC,Reporting,2015,December,12
+111A Standard,31-Dec-15,Ian Lawton,BAU Deal | Modeling/Enhancements,120,APAC,Support,2015,December,12
+AIR CPI Deals,31-Dec-15,Ryan Grady,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+ASAP Note Distribution Reports,31-Dec-15,Fiona Wilson,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+Barista Meddio,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Barista Meddio,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Belgium 1,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Belgium 1,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,31-Dec-15,Kian Dooley,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYA Support,31-Dec-15,Kian Dooley,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,31-Dec-15,Kian Dooley,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+BYA Support,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+BYB Summer,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+BYB Summer,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+Mantle,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Mantle,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Cashflow,31-Dec-15,Kian Dooley,BAU Deal | CR,20,EMEA,Support,2015,December,12
+Cashflow,31-Dec-15,Kian Dooley,BAU Deal | CR,30,EMEA,Support,2015,December,12
+Castlerock Cuba,31-Dec-15,Kian Dooley,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Castlerock Cuba,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Deal Rules Honlong,31-Dec-15,Ryan Grady,Project,60,APAC,Project,2015,December,12
+Deal Rules Signat,31-Dec-15,Ian Lawton,Project,120,APAC,Project,2015,December,12
+Excel Update,31-Dec-15,Ian Lawton,Project,240,APAC,Project,2015,December,12
+GTL,31-Dec-15,Kian Dooley,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+GTL,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+GTL,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+GTL,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+GTL,31-Dec-15,Kian Dooley,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+GTL,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,45,EMEA,Reporting,2015,December,12
+GTL,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+GTL,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+GTL,31-Dec-15,Kian Dooley,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+GTL,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+IAQ Migration,31-Dec-15,Ryan Grady,Project,60,APAC,Project,2015,December,12
+LLD 11 Facility Agent,31-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+LLD 2 Facility Agent,31-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+LLD 29 Facility Agent,31-Dec-15,Fiona Wilson,BAU Deal | Reporting,60,APAC,Reporting,2015,December,12
+Loude Art Facility Agent,31-Dec-15,Ryan Grady,BAU Deal | Reporting,120,APAC,Reporting,2015,December,12
+Lyahinha,31-Dec-15,Kian Dooley,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Lyahinha,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,30,EMEA,Reporting,2015,December,12
+N/A,31-Dec-15,Mike Connolly,Other | Out of the Office,480,APAC,Other,2015,December,12
+N/A,31-Dec-15,Kian Dooley,Other | Research/Investigation,30,EMEA,Other,2015,December,12
+N/A,31-Dec-15,Ryan Grady,Other | Out of the Office,180,APAC,Other,2015,December,12
+N/A,31-Dec-15,Cian Smith,Other | Out of the Office,450,EMEA,Other,2015,December,12
+N/A,31-Dec-15,Owen Chase,Other | Research/Investigation,300,APAC,Other,2015,December,12
+Omex Holding,31-Dec-15,Owen Chase,BAU Deal | QC,60,APAC,Support,2015,December,12
+Slaid Newer Agency,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Slaid Newer Agency,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Slaid Newer Agency,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Slaid Newer Agency,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Spiddle Bank,31-Dec-15,Kian Dooley,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+Spiddle Bank,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2008,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+Triggnum 2008,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+Triggnum 2015,31-Dec-15,Kian Dooley,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,31-Dec-15,Kian Dooley,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+Triggnum 2015,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+YD,31-Dec-15,Kian Dooley,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
+YD,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,90,EMEA,Reporting,2015,December,12
+YD,31-Dec-15,Kian Dooley,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+YD,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,40,EMEA,Reporting,2015,December,12
+YD MESPIL,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MESPIL,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD MESPIL,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MESPIL,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MILE,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MILE,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,20,EMEA,Reporting,2015,December,12
+YD MILE,31-Dec-15,Kian Dooley,BAU Deal | Reporting,5,EMEA,Reporting,2015,December,12
+YD MILE,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,15,EMEA,Reporting,2015,December,12
+YD SIGN,31-Dec-15,Kian Dooley,BAU Deal | Reporting,10,EMEA,Reporting,2015,December,12
+YD SIGN,31-Dec-15,Brendan Stafford,BAU Deal | Reporting,60,EMEA,Reporting,2015,December,12
