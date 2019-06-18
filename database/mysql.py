@@ -28,7 +28,7 @@ class MySQLDatabase(object):
         try:
             self.db = _mysql.connect(db=database_name,host=host,user=username,passwd=password)
             self.databasename = database_name
-            print "Connected to MySQL!"
+            print ("Connected to MySQL!")
         except _mysql.Error, e:
             print e
 #---------------------------------------------------------------------------------------------
