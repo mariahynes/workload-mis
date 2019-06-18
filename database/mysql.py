@@ -29,7 +29,7 @@ class MySQLDatabase(object):
             self.db = _mysql.connect(db=database_name,host=host,user=username,passwd=password)
             self.databasename = database_name
             print ("Connected to MySQL!")
-        except _mysql.Error, e:
+        except _mysql.Error as e:
             print (e)
 #---------------------------------------------------------------------------------------------
     def __del__(self):
