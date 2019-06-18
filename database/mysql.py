@@ -30,7 +30,7 @@ class MySQLDatabase(object):
             self.databasename = database_name
             print ("Connected to MySQL!")
         except _mysql.Error, e:
-            print e
+            print (e)
 #---------------------------------------------------------------------------------------------
     def __del__(self):
         """
@@ -42,7 +42,7 @@ class MySQLDatabase(object):
 
         if hasattr(self, "db"):
             self.db.close()
-            print "MySQL Connection Closed!"
+            print ("MySQL Connection Closed!")
 
 # ---------------------------------------------------------------------------------------------
 
@@ -79,9 +79,9 @@ class MySQLDatabase(object):
         try:
             self.db = _mysql.connect(db=database_name,host=host,user=username,passwd=password)
             self.databasename = database_name
-            print "Connected to MySQL (after restart)"
+            print ("Connected to MySQL (after restart)")
         except _mysql.Error, e:
-            print e
+            print (e)
 
 # ---------------------------------------------------------------------------------------------
 
@@ -119,7 +119,7 @@ class MySQLDatabase(object):
         try:
             results = map(klass._make, cursor.fetchall())
         except _mysql.ProgrammingError, e:
-            print e
+            print (e)
 
         return results
 
@@ -182,7 +182,7 @@ class MySQLDatabase(object):
             #then close the query with ';'
             strsql += ";"
 
-        print strsql
+        print (strsql)
         self.qry_string = strsql
 
         # if UNION then don't run the query just return the full sql
@@ -276,7 +276,7 @@ class MySQLDatabase(object):
             cursor.close()
 
         except _mysql.ProgrammingError, e:
-            print "Error is: %s \nQuery is: %s" % (e, strsql)
+            print ("Error is: %s \nQuery is: %s" % (e, strsql))
 
 
 
@@ -322,7 +322,7 @@ class MySQLDatabase(object):
                 cursor.close()
 
             except _mysql.ProgrammingError, e:
-                print "Error is: %s \nQuery is: %s" % (e, strsql)
+                print ("Error is: %s \nQuery is: %s" % (e, strsql))
 
 # ---------------------------------------------------------------------------------------------
     def update(self, table, where=None,**column_values):
@@ -353,6 +353,6 @@ class MySQLDatabase(object):
             cursor.close()
 
         except _mysql.ProgrammingError, e:
-            print "Error is: %s \nQuery is: %s" % (e, strsql)
+            print ("Error is: %s \nQuery is: %s" % (e, strsql))
 
 
