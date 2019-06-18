@@ -55,7 +55,7 @@ class MySQLDatabase(object):
 
         except _mysql.OperationalError as e:
             if e[0] == 2006:
-                print "Restarting DB"
+                print ("Restarting DB")
                 self.start_database()
                 return 0
 
