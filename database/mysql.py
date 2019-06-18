@@ -53,7 +53,7 @@ class MySQLDatabase(object):
             cursor.execute(sql)
             return 1
 
-        except _mysql.OperationalError, e:
+        except _mysql.OperationalError as e:
             if e[0] == 2006:
                 print "Restarting DB"
                 self.start_database()
@@ -80,7 +80,7 @@ class MySQLDatabase(object):
             self.db = _mysql.connect(db=database_name,host=host,user=username,passwd=password)
             self.databasename = database_name
             print ("Connected to MySQL (after restart)")
-        except _mysql.Error, e:
+        except _mysql.Error as e:
             print (e)
 
 # ---------------------------------------------------------------------------------------------
@@ -118,7 +118,7 @@ class MySQLDatabase(object):
 
         try:
             results = map(klass._make, cursor.fetchall())
-        except _mysql.ProgrammingError, e:
+        except _mysql.ProgrammingError as e:
             print (e)
 
         return results
@@ -275,7 +275,7 @@ class MySQLDatabase(object):
             self.db.commit()
             cursor.close()
 
-        except _mysql.ProgrammingError, e:
+        except _mysql.ProgrammingError as e:
             print ("Error is: %s \nQuery is: %s" % (e, strsql))
 
 
@@ -321,7 +321,7 @@ class MySQLDatabase(object):
                 self.db.commit()
                 cursor.close()
 
-            except _mysql.ProgrammingError, e:
+            except _mysql.ProgrammingError as e:
                 print ("Error is: %s \nQuery is: %s" % (e, strsql))
 
 # ---------------------------------------------------------------------------------------------
@@ -352,7 +352,7 @@ class MySQLDatabase(object):
             self.db.commit()
             cursor.close()
 
-        except _mysql.ProgrammingError, e:
+        except _mysql.ProgrammingError as e:
             print ("Error is: %s \nQuery is: %s" % (e, strsql))
 
 
