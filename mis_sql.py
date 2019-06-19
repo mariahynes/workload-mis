@@ -63,8 +63,7 @@ def latest_year():
         the_latest_month_qry = db.select(data_table(), ['month_name', 'the_year'], named_tuples=True, ORDERBY='the_year DESC, month_number DESC', LIMIT='1')
 
         for row in the_latest_month_qry:
-            #the_latest_year = row.the_year
-            the_latest_year = row["the_year"]
+            the_latest_year = row.the_year
             
         return str(the_latest_year)
 
