@@ -51,9 +51,7 @@ def latest_month():
         return the_latest_month
 
     except:
-        print('Database reconnection needed!')
-
-
+        print('Error in latest_month!')
 
 
 def latest_year():
@@ -64,8 +62,8 @@ def latest_year():
 
         for row in the_latest_month_qry:
             the_latest_year = row.the_year
-            
-        return str(the_latest_year)
+
+        return the_latest_year
 
     except:
         print("Error in latest_year")
@@ -98,6 +96,7 @@ def home():
 
     return render_template('home.html', the_month=the_latest_month, the_year=the_latest_year,the_title="Home")
 
+
 """ THIS ROUTE IS NOT IN USE YET"""
 @app.route('/previous/<int:user_year>')
 def previous_year(user_year):
@@ -114,12 +113,20 @@ def previous_year(user_year):
 @app.route("/MIS/categoryMonth")
 def month_data():
     #this is called from the Home Page and again uses for the LATEST month data available
-
+    print("CategoryMonth function")
     the_latest_month = latest_month()
     the_latest_year = latest_year()
+    print("latest month: " + str(the_latest_month))
+    print("latest year: " + str(the_latest_year))
 
-    all_records = db.select(data_table(), ['category_name','SUM(time_spent) AS time_spent','team_name', 'month_name', 'the_year'],
-                            WHERE="the_year= '" + the_latest_year + "' AND month_name= '" + the_latest_month + "'",
+    #all_records = db.select(data_table(), ['category_name','SUM(time_spent) AS time_spent','team_name', 'month_name', 'the_year'],
+    #                        WHERE="the_year= " + str(the_latest_year) + " AND month_name= '" + str(the_latest_month) + "'",
+    #                        named_tuples=True, GROUPBY='team_name,category_name', LIMIT='10000')
+
+    all_records = db.select(data_table(),
+                            ['category_name', 'SUM(time_spent) AS time_spent', 'team_name', 'month_name', 'the_year'],
+                            WHERE="the_year= " + str(the_latest_year) + " AND month_name= '" + str(
+                                the_latest_month) + "'",
                             named_tuples=True, GROUPBY='team_name,category_name', LIMIT='10000')
 
     json_mis = []
@@ -137,20 +144,23 @@ def month_data():
 @app.route("/MIS/dealDataMonth")
 def month_deal_data():
     # this is called from the Home Page and again uses the LATEST month data available
+    print("DealDataMonth Function")
     the_latest_month = latest_month()
     the_latest_year = latest_year()
+    print("latest month: " + str(the_latest_month))
+    print("latest year: " + str(the_latest_year))
 
     apac_records = db.select(data_table(),
                              ['category_name', 'SUM(time_spent) AS Total_Time', 'team_name', 'month_name',
                               'model_name', 'the_year'],
-                             WHERE="model_name NOT IN('NA', 'N/A') AND the_year='" + the_latest_year + "' AND month_name= '" + the_latest_month + "' AND team_name !='EMEA'",
+                             WHERE="model_name NOT IN('NA', 'N/A') AND the_year=" + str(the_latest_year) + " AND month_name= '" + str(the_latest_month) + "' AND team_name !='EMEA'",
                              named_tuples=True, GROUPBY='model_name', ORDERBY='Total_Time DESC', UNION=True,
                              LIMIT='5')
 
     emea_records = db.select(data_table(),
                              ['category_name', 'SUM(time_spent) AS Total_Time', 'team_name', 'month_name',
                               'model_name', 'the_year'],
-                             WHERE="model_name NOT IN('NA', 'N/A') AND the_year=" + the_latest_year + " AND month_name= '" + the_latest_month + "' AND team_name ='EMEA'",
+                             WHERE="model_name NOT IN('NA', 'N/A') AND the_year=" + str(the_latest_year) + " AND month_name= '" + str(the_latest_month) + "' AND team_name ='EMEA'",
                              named_tuples=True, GROUPBY='model_name', ORDERBY='Total_Time DESC', UNION=True,
                              LIMIT='5')
 
@@ -189,7 +199,7 @@ def team_data():
     # this is called from the Charts Page and returns ALL data available (limit 20000)
     the_latest_year = latest_year()
 
-    all_records = db.select(data_table(), WHERE="the_year=" + the_latest_year, named_tuples=True, LIMIT='20000')
+    all_records = db.select(data_table(), WHERE="the_year=" + str(the_latest_year), named_tuples=True, LIMIT='20000')
 
     json_mis = []
     for record in all_records:
@@ -226,7 +236,7 @@ def deal_data():
 
     all_records = db.select(data_table(),
                             ['category_name', 'time_spent', 'team_name', 'date_entered','month_name', 'model_name',
-                             'the_year', 'month_number'], WHERE="the_year = " + the_latest_year + " AND model_name !='N/A'", named_tuples=True,
+                             'the_year', 'month_number'], WHERE="the_year = " + str(the_latest_year) + " AND model_name !='N/A'", named_tuples=True,
                             LIMIT='20000')
 
     json_mis = []
@@ -263,7 +273,7 @@ def function_data():
 
     all_records = db.select(data_table(),
                             ['category_name', 'time_spent', 'team_name', 'date_entered','month_name', 'function_name',
-                             'the_year', 'month_number'], WHERE="the_year = " + the_latest_year, named_tuples=True,
+                             'the_year', 'month_number'], WHERE="the_year = " + str(the_latest_year), named_tuples=True,
                             LIMIT='20000')
 
     json_mis = []
@@ -301,7 +311,7 @@ def people_data():
 
     all_records = db.select(data_table(),
                             ['category_name', 'time_spent', 'team_name', 'date_entered','month_name', 'user_name',
-                             'the_year', 'month_number'], WHERE="the_year = " + the_latest_year, named_tuples=True,
+                             'the_year', 'month_number'], WHERE="the_year = " + str(the_latest_year), named_tuples=True,
                             LIMIT='20000')
 
     json_mis = []

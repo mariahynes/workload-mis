@@ -27,7 +27,8 @@ class MySQLDatabase(object):
 
     def __init__(self, database_name, username, password, host):
         try:
-            self.db = _mysql.connect(db=database_name,host=host,user=username,passwd=password)
+            #self.db = _mysql.connect(db=database_name,host=host,user=username,passwd=password)
+            self.db = _mysql.connect(host=host, user=username, passwd=password,db=database_name)
             self.databasename = database_name
             print ("Connected to MySQL!")
         except _mysql.Error as e:
@@ -51,14 +52,20 @@ class MySQLDatabase(object):
 
     def __execute_sql(self, sql, cursor):
         try:
+            self.start_database()
             cursor.execute(sql)
             return 1
 
-        except _mysql.OperationalError as e:
-            if e[0] == 2006:
-                print ("Restarting DB")
-                self.start_database()
-                return 0
+        except _mysql.OperationalError:
+            print("Restarting DB")
+            self.start_database()
+            return 0
+
+        #except _mysql.OperationalError as e:
+         #   if e[0] == 2006:
+          #      print ("Restarting DB")
+           #     self.start_database()
+            #    return 0
 
 # ---------------------------------------------------------------------------------------------
     def start_database(self):
@@ -137,7 +144,8 @@ class MySQLDatabase(object):
             select(table_name, [list_of_column_names])
         """
         # if UNION then put an opening bracket at the start of the select statement
-        if kwargs.has_key("UNION"):
+        #if kwargs.has_key("UNION"):
+        if "UNION" in kwargs:
             strsql = "(SELECT "
         else:
             strsql = "SELECT "
@@ -157,54 +165,57 @@ class MySQLDatabase(object):
         strsql += " FROM %s.%s " % (self.databasename, table_name)
 
         # add the JOIN clause if it was sent to the **kwargs variable
-        if kwargs.has_key("JOIN"):
+        if "JOIN" in kwargs:
             strsql += " JOIN %s " % kwargs.get('JOIN')
 
         # add the WHERE clause if it was sent to the **kwargs variable
-        if kwargs.has_key("WHERE"):
+        if "WHERE" in kwargs:
             strsql += " WHERE %s " % kwargs.get("WHERE")
 
-        if kwargs.has_key("GROUPBY"):
+        if "GROUPBY" in kwargs:
             strsql += " GROUP BY %s " % kwargs.get("GROUPBY")
 
         # add the ORDER BY clause if it was sent to the **kwargs variable
-        if kwargs.has_key("ORDERBY"):
+        if "ORDERBY" in kwargs:
             strsql += " ORDER BY %s " % kwargs.get("ORDERBY")
 
         # add the LIMIT clause if it was sent to the **kwargs variable
-        if kwargs.has_key("LIMIT"):
+        if "LIMIT" in kwargs:
             strsql += " LIMIT %s " % kwargs.get("LIMIT")
 
         #if UNION then put closing bracket at end of statement
-        if kwargs.has_key("UNION"):
+        if "UNION" in kwargs:
             if kwargs.get("UNION") == True:
                 strsql += ") "
         else:
             #then close the query with ';'
             strsql += ";"
 
-        print (strsql)
+        print ("THE SQL SELECT QUERY IS: " + str(strsql))
         self.qry_string = strsql
 
         # if UNION then don't run the query just return the full sql
-        if kwargs.has_key("UNION"):
+        if "UNION" in kwargs:
             return self.qry_string
+            cursor.close()
 
-        cursor = self.db.cursor()
-        # cursor.execute(strsql)
-        # new line:
-        if (self.__execute_sql(strsql,cursor))==0:
-            print("running query again")
-            self.__execute_sql(strsql, cursor)
-
-        if named_tuples:
-            results = self.convert_to_named_tuples(cursor)
         else:
-            results = cursor.fetchall()
+            cursor = self.db.cursor()
+            # cursor.execute(strsql)
+            #cursor.execute(strsql)
+            # new line:
+            if (self.__execute_sql(strsql,cursor))==0:
+                print("running query again")
+                self.__execute_sql(strsql, cursor)
 
-        cursor.close()
+            if named_tuples:
+                results = self.convert_to_named_tuples(cursor)
+            else:
+                results = cursor.fetchall()
 
-        return results
+            cursor.close()
+
+            return results
 
 #---------------------------------------------------------------------------------------------
 
@@ -224,12 +235,12 @@ class MySQLDatabase(object):
 
         # then close the query with ';'
         strsql += ";"
-
         self.qry_string = strsql
-
         cursor = self.db.cursor()
         #cursor.execute(strsql)
+        #cursor.execute(strsql)
         #new line
+
         #self.__execute_sql(strsql, cursor)
         if (self.__execute_sql(strsql,cursor))==0:
             print("running query again")
